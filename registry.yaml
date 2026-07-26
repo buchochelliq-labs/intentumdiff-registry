@@ -1,0 +1,627 @@
+# The official IntentDiff plugin registry (#95) — the root of trust.
+# Every entry is vetted by this repo's PR-gate CI (schema + checksum + ref checks).
+# wasm_checksums are SHA-256 of the certified component builds (verified against the
+# monorepo's #87 hardening sweep before registration).
+version: 1
+plugins:
+  intentdiff-abap-parser:
+    source: git
+    ref: a80d46c97fa9b6d00d9792fd3db013381455a6bf
+    description: "ABAP (SAP) parser plugin for IntentDiff (full-parse mode)"
+    wasm_checksums:
+      abap_parser.wasm: 7d443a0cea13ac5b0d7bcc1c293d6cb90e07d1ca56e1855b9cdbd0c67197a0e2
+    trust_tier: official
+    capabilities: [parser]
+    abi_target: "1.0.0"
+  intentdiff-adf-parser:
+    source: git
+    ref: 8cc914b5287ccfeeca9aa18bf5a6317b379360ee
+    description: "Azure Data Factory pipeline parser plugin for IntentDiff (full-parse mode)"
+    wasm_checksums:
+      adf_parser.wasm: c1b2746c3e87d7fe53e39a3bccd903560a257843e3013fbd00cab00e41dbeb6f
+    trust_tier: official
+    capabilities: [parser]
+    abi_target: "1.0.0"
+  intentdiff-asciidoc-parser:
+    source: git
+    ref: 421cb15cdf274a0817c83c4f94f5831bb14fc461
+    description: "Lightweight AsciiDoc full-parse parser plugin for IntentDiff"
+    wasm_checksums:
+      asciidoc_parser.wasm: c99cce1d58e0536d25c870d4beb6b1dcebd467e29561076c289ad006eeadb3d3
+    trust_tier: official
+    capabilities: [parser]
+    abi_target: "1.0.0"
+  intentdiff-asm-parser:
+    source: git
+    ref: 1e2d4c7c23baf93fd538051fdb3d038964cc3414
+    description: "Assembly parser plugin for IntentDiff (interpret-cst mode)"
+    wasm_checksums:
+      asm_parser.wasm: 0c438d0b57c141f6866db7afb0fc4b8242841cd07e22ea329fdbb2113b60fb5f
+    trust_tier: official
+    capabilities: [parser]
+    abi_target: "1.0.0"
+  intentdiff-assemblyscript-parser:
+    source: git
+    ref: d11349bd341a9f708823725c197dd17e685d9a98
+    description: "AssemblyScript parser plugin for IntentDiff (interpret-cst mode)"
+    wasm_checksums:
+      assemblyscript_parser.wasm: b98fbf381f9519e0d448ceb7a0218e42ea47415a375caed1b2ea320ce5a28de5
+    trust_tier: official
+    capabilities: [parser]
+    abi_target: "1.0.0"
+  intentdiff-astro-parser:
+    source: git
+    ref: c87dfa26c07f51bc2f1ebf6405f6d799df706370
+    description: "Astro component parser plugin for IntentDiff (full-parse mode)"
+    wasm_checksums:
+      astro_parser.wasm: 2e47c5c6419b6341d64483a9c97b38269dead1cea9e3fbbe187ae6c44e4f9b60
+    trust_tier: official
+    capabilities: [parser]
+    abi_target: "1.0.0"
+  intentdiff-bash-parser:
+    source: git
+    ref: 6631931bacac4be03fc17f93816a6b7ed9f708b6
+    description: "Bash/Shell parser plugin for IntentDiff (full-parse mode)"
+    wasm_checksums:
+      bash_parser.wasm: c057806597c345cd667a10525a5baa8b26bc2c3dd6a5f63943c5ccf88ec7ef3a
+    trust_tier: official
+    capabilities: [parser]
+    abi_target: "1.0.0"
+  intentdiff-clojure-parser:
+    source: git
+    ref: 86b4dbbbb07e55a5236541d1225c6e6f40c6789c
+    description: "Clojure parser plugin for IntentDiff (interpret-cst mode)"
+    wasm_checksums:
+      clojure_parser.wasm: 9274b39d3123cf40562f6fae61a32fa45ff9c632ea62fda7b640dd26f0ccaad2
+    trust_tier: official
+    capabilities: [parser]
+    abi_target: "1.0.0"
+  intentdiff-cmake-parser:
+    source: git
+    ref: d0c17b1b692af07bf12e1cef26a5697f21b70a40
+    description: "CMake parser plugin for IntentDiff (tree-sitter-cmake grammar, full-parse mode)"
+    wasm_checksums:
+      cmake_parser.wasm: 120c9095229c2df7cc25a115eea715ec07b2400deb9a958279df42aafbe65d75
+    trust_tier: official
+    capabilities: [parser]
+    abi_target: "1.0.0"
+  intentdiff-cpp-parser:
+    source: git
+    ref: 38bf331f288a87bbdf26352fd93eb1a4ef999f8e
+    description: "C/C++ parser plugin for IntentDiff (full-parse mode)"
+    wasm_checksums:
+      cpp_parser.wasm: eb04cf0f8953f77b9f322c43b7def592f818a2ea1bb7e4ecc472b46b03cdafe3
+    trust_tier: official
+    capabilities: [parser]
+    abi_target: "1.0.0"
+  intentdiff-csharp-parser:
+    source: git
+    ref: c32175d124cd920e044a5a4c9237c1785f1d2a2d
+    description: "C# parser plugin for IntentDiff (full-parse mode)"
+    wasm_checksums:
+      csharp_parser.wasm: 2572344ce355f427c0129a278d7f925583708ede42dd94a4303d1e29b172b1a5
+    trust_tier: official
+    capabilities: [parser]
+    abi_target: "1.0.0"
+  intentdiff-css-parser:
+    source: git
+    ref: 3dc15cdb57fa5a360b26dbcdb2389e1c9d7d609c
+    description: "CSS parser plugin for IntentDiff (full-parse mode)"
+    wasm_checksums:
+      css_parser.wasm: e4c6d4b3f399718399a234885844b3b23406e0e7a819f8437a4fe70c46cd86ef
+    trust_tier: official
+    capabilities: [parser]
+    abi_target: "1.0.0"
+  intentdiff-dart-parser:
+    source: git
+    ref: 526c36da081caade48c27dd123845305050fa0bd
+    description: "Dart parser plugin for IntentDiff (interpret-cst mode)"
+    wasm_checksums:
+      dart_parser.wasm: f1468ca217c98ec69a7794f3c6154f9a6b36698c9317195168b9f0f3488e477a
+    trust_tier: official
+    capabilities: [parser]
+    abi_target: "1.0.0"
+  intentdiff-databricks-parser:
+    source: git
+    ref: 9024487cd9f3a18a79fdb97d4547a7073f42280d
+    description: "Databricks Workflows parser plugin for IntentDiff (full-parse mode)"
+    wasm_checksums:
+      databricks_parser.wasm: fb2603264bb7b3b258dcb2d2afd2300337b64509cb04f0ba3996cdb6388e75f3
+    trust_tier: official
+    capabilities: [parser]
+    abi_target: "1.0.0"
+  intentdiff-dax-parser:
+    source: git
+    ref: 440ea036a47457cc00bc9a44abc1672ba43d2347
+    description: "DAX / Power Query M parser plugin for IntentDiff (full-parse mode)"
+    wasm_checksums:
+      dax_parser.wasm: 5a3c1e9f14229d81229b8d830d3adcbbe18d07df8986bc0035ff753e426b6490
+    trust_tier: official
+    capabilities: [parser]
+    abi_target: "1.0.0"
+  intentdiff-delphi-parser:
+    source: git
+    ref: 23ee2a5a0ebe1c88aea1271a6aceb751ca690dbc
+    description: "Delphi/Object Pascal parser plugin for IntentDiff (interpret-cst mode)"
+    wasm_checksums:
+      delphi_parser.wasm: 0b69bf63cd020ec845a54a44e2ea6d5e80986d22abeff779950f083a9df0933c
+    trust_tier: official
+    capabilities: [parser]
+    abi_target: "1.0.0"
+  intentdiff-dockerfile-parser:
+    source: git
+    ref: 08df13a3f8aa12f4f7db9ab5ad26e882f7fc70cf
+    description: "Dockerfile parser plugin for IntentDiff (interpret-cst mode)"
+    wasm_checksums:
+      dockerfile_parser.wasm: c5f6eea65d70e79acca2257e027ead99e5dbb7a810bbab4d5b7c30cbc11e2175
+    trust_tier: official
+    capabilities: [parser]
+    abi_target: "1.0.0"
+  intentdiff-elixir-parser:
+    source: git
+    ref: 92819bb15ffaa0ffbc9ca924ac87e1e554aca987
+    description: "Elixir parser plugin for IntentDiff (full-parse mode)"
+    wasm_checksums:
+      elixir_parser.wasm: f74e7d2cafdd113e1599fa8d04162cde413272ccdf9dcff1b01e30409a777a0c
+    trust_tier: official
+    capabilities: [parser]
+    abi_target: "1.0.0"
+  intentdiff-freebasic-parser:
+    source: git
+    ref: 1da1749dcef3533dece560144e855340f8609e9f
+    description: "FreeBASIC parser plugin for IntentDiff (full-parse lightweight mode)"
+    wasm_checksums:
+      freebasic_parser.wasm: ca726dcbe968c764365688884f8d927a68f0f76549566fd480cfd213c2395f15
+    trust_tier: official
+    capabilities: [parser]
+    abi_target: "1.0.0"
+  intentdiff-generic-parser:
+    source: git
+    ref: 8577609b34a77091ad5b4ba7d044f21f64fbf367
+    description: "Generic (token-level) fallback parser plugin for IntentDiff"
+    wasm_checksums:
+      generic_parser.wasm: 5a534ffb3f129249520a441c266fa64403debf880f4af215949392811012028d
+    trust_tier: official
+    capabilities: [parser]
+    abi_target: "1.0.0"
+  intentdiff-gitignore-parser:
+    source: git
+    ref: de2c274a819c42774017060a21800099e84e6722
+    description: "Dedicated .gitignore / ignore-family full-parse parser plugin for IntentDiff"
+    wasm_checksums:
+      gitignore_parser.wasm: b77b2e4a54275eda867ea9c0fc23822b2b1d3be15131e55afbb88d5e1806c4ab
+    trust_tier: official
+    capabilities: [parser]
+    abi_target: "1.0.0"
+  intentdiff-go-parser:
+    source: git
+    ref: ecb267685dc05d23f59500934043414e4523158f
+    description: "Go parser plugin for IntentDiff (full-parse mode)"
+    wasm_checksums:
+      go_parser.wasm: 2440f21d5841d8fb44789db0658963ca61c1d783438c07423ee2010e2ba2bc46
+    trust_tier: official
+    capabilities: [parser]
+    abi_target: "1.0.0"
+  intentdiff-gomod-parser:
+    source: git
+    ref: e3e5e7e55062b23dd2fa7509599bedb3323a1095
+    description: "go.mod parser plugin for IntentDiff (tree-sitter-gomod grammar, full-parse mode)"
+    wasm_checksums:
+      gomod_parser.wasm: c7f262e0f72ec2923bee5b4c5683f2bddd1b20077ddc4e8c20a0d6d92de796eb
+    trust_tier: official
+    capabilities: [parser]
+    abi_target: "1.0.0"
+  intentdiff-graphql-parser:
+    source: git
+    ref: 95ceea802f30f712552be092d1e28e11da8fc2ef
+    description: "Lightweight GraphQL full-parse parser plugin for IntentDiff"
+    wasm_checksums:
+      graphql_parser.wasm: c9ee6cec6cc65cf4cf01c86cfb6c7d71a7dd0a7e9f08a947304fa9c6ffe96fdd
+    trust_tier: official
+    capabilities: [parser]
+    abi_target: "1.0.0"
+  intentdiff-groovy-parser:
+    source: git
+    ref: fd16445bdf1409be1ae101a12255b1851fabd5c0
+    description: "Groovy parser plugin for IntentDiff (full-parse mode)"
+    wasm_checksums:
+      groovy_parser.wasm: 2752f6bb9f50fe6c93b18b03c0fff056affcd6e7692d2d06e8749a7884a09db2
+    trust_tier: official
+    capabilities: [parser]
+    abi_target: "1.0.0"
+  intentdiff-haskell-parser:
+    source: git
+    ref: 54ad3e3e4241fad1b0975329ac0b3a6fa5c33cdd
+    description: "Haskell parser plugin for IntentDiff (full-parse mode)"
+    wasm_checksums:
+      haskell_parser.wasm: 6b13c7b6e07351583ded801efeb0bb543f2b3c0327e1dcffb2a65e5e0ac098fe
+    trust_tier: official
+    capabilities: [parser]
+    abi_target: "1.0.0"
+  intentdiff-html-parser:
+    source: git
+    ref: 7a0b87f50f7d94eb4563e7db44a11460582b05b3
+    description: "HTML parser plugin for IntentDiff (full-parse mode)"
+    wasm_checksums:
+      html_parser.wasm: 508a9a3075da065f00ea37bf353278ec0873cfd846c8e098f209bf0da19c4027
+    trust_tier: official
+    capabilities: [parser]
+    abi_target: "1.0.0"
+  intentdiff-ini-parser:
+    source: git
+    ref: 02f2bef00dcf0db23cd6a059c6b9ebb0d1b3a68d
+    description: "INI parser plugin for IntentDiff (tree-sitter-ini grammar, full-parse mode)"
+    wasm_checksums:
+      ini_parser.wasm: 69269f115c3e513da56af6d595674f674c44c310ff5167da2b39beafb2fe78fc
+    trust_tier: official
+    capabilities: [parser]
+    abi_target: "1.0.0"
+  intentdiff-java-parser:
+    source: git
+    ref: 256e5e31fa4fed09802d533753a536f48f31cf74
+    description: "Java parser plugin for IntentDiff (full-parse mode)"
+    wasm_checksums:
+      java_parser.wasm: aa0dc71346ee433a042a3a09c0cd3d5015d67267236c6f25a14cf20d5025253b
+    trust_tier: official
+    capabilities: [parser]
+    abi_target: "1.0.0"
+  intentdiff-js-ts-parser:
+    source: git
+    ref: 7b0308bdb359ae7c5bd25bb86e570df51fe2d69a
+    description: "JavaScript / TypeScript parser plugin for IntentDiff (full-parse mode)"
+    wasm_checksums:
+      js_ts_parser.wasm: 0bdda6d44281e469a140a7dc849fdd33c38c9c24da32438ab129fe44ed405ece
+    trust_tier: official
+    capabilities: [parser]
+    abi_target: "1.0.0"
+  intentdiff-json-parser:
+    source: git
+    ref: 74f4515ed576e040cbfe8e61d8dc5b1d6f67db9e
+    description: "JSON parser plugin for IntentDiff (full-parse mode)"
+    wasm_checksums:
+      json_parser.wasm: e4286cf6c61c4e8099bd4c89aa44ed1ad2b83828878f677fafcb89018d3d4d39
+    trust_tier: official
+    capabilities: [parser]
+    abi_target: "1.0.0"
+  intentdiff-kotlin-parser:
+    source: git
+    ref: 3d586c4ef3c7b5b5c50424413c4cbdbb0481076d
+    description: "Kotlin parser plugin for IntentDiff (full-parse mode)"
+    wasm_checksums:
+      kotlin_parser.wasm: daf3a43b372194aff7d89d8d021a98b8d6716d4df524ae5632a70efb217cd0a0
+    trust_tier: official
+    capabilities: [parser]
+    abi_target: "1.0.0"
+  intentdiff-latex-parser:
+    source: git
+    ref: b031105868d742bc9db6e5799a7e431dcc35d413
+    description: "Lightweight LaTeX full-parse parser plugin for IntentDiff"
+    wasm_checksums:
+      latex_parser.wasm: 4e0419d20aae7024dfe52150215dbc3dacdeb6c220fa6f5aec1ebc6787c690eb
+    trust_tier: official
+    capabilities: [parser]
+    abi_target: "1.0.0"
+  intentdiff-lua-parser:
+    source: git
+    ref: 9888401ee1217458994dd6c7e621c175abcbd431
+    description: "Lua parser plugin for IntentDiff (full-parse mode)"
+    wasm_checksums:
+      lua_parser.wasm: 85d9023096d79578c3967e7f7469298f7d07d1e375cb2c138903ef0e28902e07
+    trust_tier: official
+    capabilities: [parser]
+    abi_target: "1.0.0"
+  intentdiff-make-parser:
+    source: git
+    ref: 65865b0a473a652beafe20baf1f4a0d05c10af12
+    description: "Makefile parser plugin for IntentDiff (tree-sitter-make grammar, full-parse mode)"
+    wasm_checksums:
+      make_parser.wasm: e98ab988e73e1191ee7352e884ffadb59105c5d7aca755658f6011dac5792246
+    trust_tier: official
+    capabilities: [parser]
+    abi_target: "1.0.0"
+  intentdiff-markdown-parser:
+    source: git
+    ref: bc869f3beff3abf55a2da0fdd1e3800ef5adf56e
+    description: "Markdown parser plugin for IntentDiff (tree-sitter-md block grammar, full-parse mode)"
+    wasm_checksums:
+      markdown_parser.wasm: f9d5ed862d525ce6685cca0ae039e9af54638e8a88ad8d7f8ffb5db95a658d70
+    trust_tier: official
+    capabilities: [parser]
+    abi_target: "1.0.0"
+  intentdiff-mdx-parser:
+    source: git
+    ref: 642db3cfb0c64956c5e7847298619a206137728b
+    description: "MDX (Markdown + JSX) parser plugin for IntentDiff (full-parse mode)"
+    wasm_checksums:
+      mdx_parser.wasm: e523303fbc9b8ed9f322bdeb2c03a1e85ff14fe94800b0d627c14a4dfc23580e
+    trust_tier: official
+    capabilities: [parser]
+    abi_target: "1.0.0"
+  intentdiff-ocaml-parser:
+    source: git
+    ref: b38fcb3b436fc32edf08e44fa75b18c0dd71c219
+    description: "Lightweight OCaml full-parse parser plugin for IntentDiff"
+    wasm_checksums:
+      ocaml_parser.wasm: 06b9883f2254efddc082a408b31ae2192bb64d02f4fbcfe1fe740533906807ec
+    trust_tier: official
+    capabilities: [parser]
+    abi_target: "1.0.0"
+  intentdiff-odin-parser:
+    source: git
+    ref: d204e6df449bd956cd8943ed4bf325a0093af5bb
+    description: "Odin parser plugin for IntentDiff (full-parse mode)"
+    wasm_checksums:
+      odin_parser.wasm: 39a1f4db59d54ac54d437d056c6a3dba3871a06893342f8700db45015692bcf7
+    trust_tier: official
+    capabilities: [parser]
+    abi_target: "1.0.0"
+  intentdiff-perl-parser:
+    source: git
+    ref: 4ca198d714c0d03f43e977015e00ebe12d0408a3
+    description: "Perl parser plugin for IntentDiff (full-parse mode)"
+    wasm_checksums:
+      perl_parser.wasm: c5484ac174f3d82fef84c9a27c6474f71eb27dab7a543ec7a600e6eae49c9dbc
+    trust_tier: official
+    capabilities: [parser]
+    abi_target: "1.0.0"
+  intentdiff-php-parser:
+    source: git
+    ref: 4de85427f5a141a9af99f9f977545e1befc2433d
+    description: "PHP parser plugin for IntentDiff (full-parse mode)"
+    wasm_checksums:
+      php_parser.wasm: b0be9820b30ca995a1deeb3ab30ddb1d33f17f0203a6ec16dc059ecff4b87e84
+    trust_tier: official
+    capabilities: [parser]
+    abi_target: "1.0.0"
+  intentdiff-plsql-parser:
+    source: git
+    ref: c50f728f7f462163cb7385aaba06549ca95d5775
+    description: "PL/SQL (Oracle) parser plugin for IntentDiff (full-parse mode)"
+    wasm_checksums:
+      plsql_parser.wasm: f52681def83858cec3d1dfa6ad9ab96a8c13b51f8a9e092c850e6986b1534435
+    trust_tier: official
+    capabilities: [parser]
+    abi_target: "1.0.0"
+  intentdiff-po-parser:
+    source: git
+    ref: 3f6bb62342830504ed2bd27fe844f470ce4d7b12
+    description: "Lightweight PO/gettext full-parse parser plugin for IntentDiff"
+    wasm_checksums:
+      po_parser.wasm: a66cfd506ede2357aebc8bbb4b15c69485c9cbd9282844ee6ed8026b254ddec8
+    trust_tier: official
+    capabilities: [parser]
+    abi_target: "1.0.0"
+  intentdiff-postscript-parser:
+    source: git
+    ref: c455b67502f367979d442c953cf56a5ad3b15927
+    description: "PostScript parser plugin for IntentDiff (full-parse mode)"
+    wasm_checksums:
+      postscript_parser.wasm: 6e66c492557af9219285caad366eb7f43acc57ff6bc545afe7a782034c821328
+    trust_tier: official
+    capabilities: [parser]
+    abi_target: "1.0.0"
+  intentdiff-powershell-parser:
+    source: git
+    ref: 5e364b4c8fe427c12bae5a2af1c875412f51e421
+    description: "PowerShell parser plugin for IntentDiff (full-parse mode)"
+    wasm_checksums:
+      powershell_parser.wasm: 2bff41b15a640fdecee7893293408f5d445d4622d9c77bb7f5ee6c89db1788fd
+    trust_tier: official
+    capabilities: [parser]
+    abi_target: "1.0.0"
+  intentdiff-proto-parser:
+    source: git
+    ref: fa98caf4a3d053b2d9b58546e9bd96b5916b2e29
+    description: "Protocol Buffers parser plugin for IntentDiff (tree-sitter-proto grammar, full-parse mode)"
+    wasm_checksums:
+      proto_parser.wasm: 8c958a520f4589f374114457e5dfdbb4798cf5d344865a33be7b3095720eb1e2
+    trust_tier: official
+    capabilities: [parser]
+    abi_target: "1.0.0"
+  intentdiff-puppet-parser:
+    source: git
+    ref: 1f88851acc8c22c424f04d73c3ac8ff2a701f341
+    description: "Puppet parser plugin for IntentDiff (full-parse mode)"
+    wasm_checksums:
+      puppet_parser.wasm: df0a0d305fbfcdfee542298e8777a641391b7d00d63f1fdc63a484e31442302c
+    trust_tier: official
+    capabilities: [parser]
+    abi_target: "1.0.0"
+  intentdiff-python-parser:
+    source: git
+    ref: 91c2e24a38d073884b8560cb213360cf5e73e692
+    description: "Python parser plugin for IntentDiff (full-parse mode)"
+    wasm_checksums:
+      python_parser.wasm: 62b015427ff3c6431f7c196bd623caa319ef8699f0bfb6a13d9ef2f7b8fc9273
+    trust_tier: official
+    capabilities: [parser]
+    abi_target: "1.0.0"
+  intentdiff-qsharp-parser:
+    source: git
+    ref: 3cf7d182bfe1fee688768b9ed676b13d32855ecd
+    description: "Q# (Microsoft Quantum) parser plugin for IntentDiff (full-parse mode)"
+    wasm_checksums:
+      qsharp_parser.wasm: 3bd35b73ada2f0476e0d8647655583bc19de6e2be5d78edb965903017add8b60
+    trust_tier: official
+    capabilities: [parser]
+    abi_target: "1.0.0"
+  intentdiff-r-parser:
+    source: git
+    ref: 2188dcca09e64090967498e03a744bc34fdee690
+    description: "R parser plugin for IntentDiff (interpret-cst mode)"
+    wasm_checksums:
+      r_parser.wasm: a969f008e822ee744c00db86b6b01e2bd95e03f57552f87d715aecb205a3cf68
+    trust_tier: official
+    capabilities: [parser]
+    abi_target: "1.0.0"
+  intentdiff-reasonml-parser:
+    source: git
+    ref: a8bbc86131e31179160456ad348d746425e37c35
+    description: "Lightweight ReasonML full-parse parser plugin for IntentDiff"
+    wasm_checksums:
+      reasonml_parser.wasm: fc714feaca07cce8dd8c4303cf77acc60a5982b9b3ec82dc57f3226621d5bd75
+    trust_tier: official
+    capabilities: [parser]
+    abi_target: "1.0.0"
+  intentdiff-ruby-parser:
+    source: git
+    ref: 65905b983c80b5fb37362ffde64e1ea3b5cc903f
+    description: "Ruby parser plugin for IntentDiff (full-parse mode)"
+    wasm_checksums:
+      ruby_parser.wasm: 8c6f1c76f1be6d945e93c950e61b62495b9a7afb9e788908ea8c14f93e4f3ee8
+    trust_tier: official
+    capabilities: [parser]
+    abi_target: "1.0.0"
+  intentdiff-rust-parser:
+    source: git
+    ref: 24897a53dfa706be1c7424e35364e2b5ce217b0c
+    description: "Rust parser plugin for IntentDiff (full-parse mode)"
+    wasm_checksums:
+      rust_parser.wasm: 8f1d3410aa6f9bc786ee069237ab1f57c6d12b5396c3ed4ac4c689158323ddc1
+    trust_tier: official
+    capabilities: [parser]
+    abi_target: "1.0.0"
+  intentdiff-sas-parser:
+    source: git
+    ref: 0af95256b34e38fa9fef86201ca7e5faf6873a4a
+    description: "SAS parser plugin for IntentDiff (full-parse mode)"
+    wasm_checksums:
+      sas_parser.wasm: 8e3ac8a29497bbb3367565eaa286e58118bba3a4949e42522e1e1d1c0dfdee58
+    trust_tier: official
+    capabilities: [parser]
+    abi_target: "1.0.0"
+  intentdiff-scala-parser:
+    source: git
+    ref: 2501ef17a1c5f06a7c8652726d7d1e93a8f9698b
+    description: "Scala parser plugin for IntentDiff (full-parse mode)"
+    wasm_checksums:
+      scala_parser.wasm: 5f8aa7c102fb3e9ab9f7b694fd7a0cc0997d48311e2941ba71778ef4e53ce9f5
+    trust_tier: official
+    capabilities: [parser]
+    abi_target: "1.0.0"
+  intentdiff-scss-parser:
+    source: git
+    ref: b14928545a74b35ad8cafd437cfc2ebfd1a89350
+    description: "SCSS parser plugin for IntentDiff (full-parse mode)"
+    wasm_checksums:
+      scss_parser.wasm: be2775e193a58792eaeff0b7cc504ff918dcbd7637e4194777efe1f3d07c7f4b
+    trust_tier: official
+    capabilities: [parser]
+    abi_target: "1.0.0"
+  intentdiff-sql-parser:
+    source: git
+    ref: 977851e37000df89cc7aa991c22f4e78e6de6966
+    description: "SQL parser plugin for IntentDiff (full-parse mode)"
+    wasm_checksums:
+      sql_parser.wasm: 759eec4600eab27059062616ae23833fbd60324e5f8cc867ec2dd528bd76eb0d
+    trust_tier: official
+    capabilities: [parser]
+    abi_target: "1.0.0"
+  intentdiff-squirrel-parser:
+    source: git
+    ref: b90e5a27abf5d88235ef94075e9821f6f74fd9ba
+    description: "Squirrel parser plugin for IntentDiff (interpret-cst mode)"
+    wasm_checksums:
+      squirrel_parser.wasm: 6887a9cfff60bb774c21a93d121ea8244acee414f4c4d26160823fe0c1322748
+    trust_tier: official
+    capabilities: [parser]
+    abi_target: "1.0.0"
+  intentdiff-svelte-parser:
+    source: git
+    ref: 2facc068151178e7e50e5876f2573c715d72bb55
+    description: "Svelte component parser plugin for IntentDiff (full-parse mode)"
+    wasm_checksums:
+      svelte_parser.wasm: 6d06cfd11a486f7ea18c584a73fa06b7694009468cc203088261796e064b9f94
+    trust_tier: official
+    capabilities: [parser]
+    abi_target: "1.0.0"
+  intentdiff-swift-parser:
+    source: git
+    ref: 9c5217016bce3803f954f9e1684552604fb099aa
+    description: "Swift parser plugin for IntentDiff (full-parse mode)"
+    wasm_checksums:
+      swift_parser.wasm: 77af6fb41c2606d5731eda9707990bb0b7e307eab9423d1a2cc6497e55c98caf
+    trust_tier: official
+    capabilities: [parser]
+    abi_target: "1.0.0"
+  intentdiff-terraform-parser:
+    source: git
+    ref: 03b05a7846c3efe71fdd2c40ed752f2e9efd86a6
+    description: "Terraform/HCL parser plugin for IntentDiff (full-parse mode)"
+    wasm_checksums:
+      terraform_parser.wasm: 714cdfd8965cf1f1194c8be7c605c16fd9397908abc683c8d99e35732dd407b8
+    trust_tier: official
+    capabilities: [parser]
+    abi_target: "1.0.0"
+  intentdiff-toml-parser:
+    source: git
+    ref: f94cf6d2787e39cbc37f07546ab1fb3fc7d3f90b
+    description: "TOML parser plugin for IntentDiff (tree-sitter-toml-ng grammar, full-parse mode)"
+    wasm_checksums:
+      toml_parser.wasm: 1463de593ec79a5d75d5cba18f24d2acfacfe507e4214951f3c938f366055b9c
+    trust_tier: official
+    capabilities: [parser]
+    abi_target: "1.0.0"
+  intentdiff-tsql-parser:
+    source: git
+    ref: 34fd8d6fdbae38706837b364a4222744b9b4c962
+    description: "T-SQL (Microsoft SQL Server) parser plugin for IntentDiff (full-parse mode)"
+    wasm_checksums:
+      tsql_parser.wasm: 845dbbe5693dc76c1c9330afee49e15e40b9b064a2706be8ff3fa3b4c8c9c565
+    trust_tier: official
+    capabilities: [parser]
+    abi_target: "1.0.0"
+  intentdiff-vbnet-parser:
+    source: git
+    ref: 3ddd3a0b7b5fceff5b14666a6ed3df3191fb6dee
+    description: "Visual Basic .NET parser plugin for IntentDiff (full-parse mode)"
+    wasm_checksums:
+      vbnet_parser.wasm: f55fff6467344d561155b56dce1d79078cc408688f7aa1d67e7eccf067ce7ea5
+    trust_tier: official
+    capabilities: [parser]
+    abi_target: "1.0.0"
+  intentdiff-vue-parser:
+    source: git
+    ref: cfd5ea0641a7fe4f477c694ee4d7544ce9df2dfd
+    description: "Vue SFC parser plugin for IntentDiff (full-parse mode)"
+    wasm_checksums:
+      vue_parser.wasm: 114e923684a9c1f2f4be4360303a788e552e5c6f05a6737c58fbeefdf156f50e
+    trust_tier: official
+    capabilities: [parser]
+    abi_target: "1.0.0"
+  intentdiff-wat-parser:
+    source: git
+    ref: 004f42e68eab22ba2d4ae4af860d1e229300e22f
+    description: "WebAssembly Text (WAT) parser plugin for IntentDiff (interpret-cst mode)"
+    wasm_checksums:
+      wat_parser.wasm: 0fb477bd2669fb22eb81f0e908d1d325eeb990fc790f2df738697b352c40e69f
+    trust_tier: official
+    capabilities: [parser]
+    abi_target: "1.0.0"
+  intentdiff-xml-parser:
+    source: git
+    ref: c0d873be26d9d2c741ac2af6935f1efc24fb5a22
+    description: "XML parser plugin for IntentDiff (full-parse mode)"
+    wasm_checksums:
+      xml_parser.wasm: 7192e3aa3898f63968de031811d2c525cbd599348099c6d1d740e1be17887b16
+    trust_tier: official
+    capabilities: [parser]
+    abi_target: "1.0.0"
+  intentdiff-yaml-parser:
+    source: git
+    ref: 3e71ba6dabca8d8571fbfb919300f72293e439b6
+    description: "YAML parser plugin for IntentDiff (full-parse mode)"
+    wasm_checksums:
+      yaml_parser.wasm: d4b7597d0dbe151c41392da1b539d10eb37c18052317db881e77cd2938d60a54
+    trust_tier: official
+    capabilities: [parser]
+    abi_target: "1.0.0"
+  intentdiff-zig-parser:
+    source: git
+    ref: 26e4796fc26400fb8c852e21e27be29828526456
+    description: "Zig parser plugin for IntentDiff (full-parse mode)"
+    wasm_checksums:
+      zig_parser.wasm: 567a50ba8957bd8a1575dc83002eba0b4ab4530de1b8e563ea585aacfb7f21ee
+    trust_tier: official
+    capabilities: [parser]
+    abi_target: "1.0.0"
