@@ -1,6 +1,6 @@
 # IntentDiff plugin catalog
 
-_69 plugins — generated from the registry manifest._
+_69 plugins â€” generated from the registry manifest._
 
 ## Official (69)
 
