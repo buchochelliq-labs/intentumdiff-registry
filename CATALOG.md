@@ -10,7 +10,7 @@ _69 plugins — generated from the registry manifest._
 
 ABAP (SAP) parser plugin for IntentDiff (full-parse mode)
 
-- **Source**: git `a80d46c97fa9b6d00d9792fd3db013381455a6bf`
+- **Source**: git `f79e512504478e6b72b28b8cad1fe7511e484233`
 - **ABI target**: `1.0.0`
 - **Capabilities**: `parser`
 - **Install**: `intentdiff plugins add intentdiff-abap-parser`
@@ -19,7 +19,7 @@ ABAP (SAP) parser plugin for IntentDiff (full-parse mode)
 
 Azure Data Factory pipeline parser plugin for IntentDiff (full-parse mode)
 
-- **Source**: git `8cc914b5287ccfeeca9aa18bf5a6317b379360ee`
+- **Source**: git `0671a905217db48e892f6c677e2654cf7310a8e2`
 - **ABI target**: `1.0.0`
 - **Capabilities**: `parser`
 - **Install**: `intentdiff plugins add intentdiff-adf-parser`
@@ -28,7 +28,7 @@ Azure Data Factory pipeline parser plugin for IntentDiff (full-parse mode)
 
 Lightweight AsciiDoc full-parse parser plugin for IntentDiff
 
-- **Source**: git `421cb15cdf274a0817c83c4f94f5831bb14fc461`
+- **Source**: git `37ebdf62876529a04188aa564e623f393e6934d6`
 - **ABI target**: `1.0.0`
 - **Capabilities**: `parser`
 - **Install**: `intentdiff plugins add intentdiff-asciidoc-parser`
@@ -37,7 +37,7 @@ Lightweight AsciiDoc full-parse parser plugin for IntentDiff
 
 Assembly parser plugin for IntentDiff (interpret-cst mode)
 
-- **Source**: git `1e2d4c7c23baf93fd538051fdb3d038964cc3414`
+- **Source**: git `b75ec606ce321edc36c148dd19c92b7db1e9ed05`
 - **ABI target**: `1.0.0`
 - **Capabilities**: `parser`
 - **Install**: `intentdiff plugins add intentdiff-asm-parser`
@@ -46,7 +46,7 @@ Assembly parser plugin for IntentDiff (interpret-cst mode)
 
 AssemblyScript parser plugin for IntentDiff (interpret-cst mode)
 
-- **Source**: git `d11349bd341a9f708823725c197dd17e685d9a98`
+- **Source**: git `fdec0c4500b562f8e622a61ed10ba4a9072b7ff8`
 - **ABI target**: `1.0.0`
 - **Capabilities**: `parser`
 - **Install**: `intentdiff plugins add intentdiff-assemblyscript-parser`
@@ -55,7 +55,7 @@ AssemblyScript parser plugin for IntentDiff (interpret-cst mode)
 
 Astro component parser plugin for IntentDiff (full-parse mode)
 
-- **Source**: git `c87dfa26c07f51bc2f1ebf6405f6d799df706370`
+- **Source**: git `2500da1099ed3d6a260a183b0e88e630267ee2b6`
 - **ABI target**: `1.0.0`
 - **Capabilities**: `parser`
 - **Install**: `intentdiff plugins add intentdiff-astro-parser`
@@ -64,7 +64,7 @@ Astro component parser plugin for IntentDiff (full-parse mode)
 
 Bash/Shell parser plugin for IntentDiff (full-parse mode)
 
-- **Source**: git `6631931bacac4be03fc17f93816a6b7ed9f708b6`
+- **Source**: git `f199e57545d623bbea5946a7cf10f3e829ae3a93`
 - **ABI target**: `1.0.0`
 - **Capabilities**: `parser`
 - **Install**: `intentdiff plugins add intentdiff-bash-parser`
@@ -73,7 +73,7 @@ Bash/Shell parser plugin for IntentDiff (full-parse mode)
 
 Clojure parser plugin for IntentDiff (interpret-cst mode)
 
-- **Source**: git `86b4dbbbb07e55a5236541d1225c6e6f40c6789c`
+- **Source**: git `9236499fe0776b25162c23594f0d9b65619a77fc`
 - **ABI target**: `1.0.0`
 - **Capabilities**: `parser`
 - **Install**: `intentdiff plugins add intentdiff-clojure-parser`
@@ -82,7 +82,7 @@ Clojure parser plugin for IntentDiff (interpret-cst mode)
 
 CMake parser plugin for IntentDiff (tree-sitter-cmake grammar, full-parse mode)
 
-- **Source**: git `d0c17b1b692af07bf12e1cef26a5697f21b70a40`
+- **Source**: git `512e67f4301f29637a731f5e871e55c1264811c0`
 - **ABI target**: `1.0.0`
 - **Capabilities**: `parser`
 - **Install**: `intentdiff plugins add intentdiff-cmake-parser`
@@ -91,7 +91,7 @@ CMake parser plugin for IntentDiff (tree-sitter-cmake grammar, full-parse mode)
 
 C/C++ parser plugin for IntentDiff (full-parse mode)
 
-- **Source**: git `38bf331f288a87bbdf26352fd93eb1a4ef999f8e`
+- **Source**: git `53ec028bb33d49ff55f5060e66a7be273735c0db`
 - **ABI target**: `1.0.0`
 - **Capabilities**: `parser`
 - **Install**: `intentdiff plugins add intentdiff-cpp-parser`
@@ -100,7 +100,7 @@ C/C++ parser plugin for IntentDiff (full-parse mode)
 
 C# parser plugin for IntentDiff (full-parse mode)
 
-- **Source**: git `c32175d124cd920e044a5a4c9237c1785f1d2a2d`
+- **Source**: git `59288dd8ddbb807fc9cafc777023b1b061791880`
 - **ABI target**: `1.0.0`
 - **Capabilities**: `parser`
 - **Install**: `intentdiff plugins add intentdiff-csharp-parser`
@@ -109,7 +109,7 @@ C# parser plugin for IntentDiff (full-parse mode)
 
 CSS parser plugin for IntentDiff (full-parse mode)
 
-- **Source**: git `3dc15cdb57fa5a360b26dbcdb2389e1c9d7d609c`
+- **Source**: git `bcf1a343c2fc24a0a6da4a1c2a3e0931e0da19b0`
 - **ABI target**: `1.0.0`
 - **Capabilities**: `parser`
 - **Install**: `intentdiff plugins add intentdiff-css-parser`
@@ -118,7 +118,7 @@ CSS parser plugin for IntentDiff (full-parse mode)
 
 Dart parser plugin for IntentDiff (interpret-cst mode)
 
-- **Source**: git `526c36da081caade48c27dd123845305050fa0bd`
+- **Source**: git `7c0000a051e58439c9ccecc724398b6689a2fdd6`
 - **ABI target**: `1.0.0`
 - **Capabilities**: `parser`
 - **Install**: `intentdiff plugins add intentdiff-dart-parser`
@@ -127,7 +127,7 @@ Dart parser plugin for IntentDiff (interpret-cst mode)
 
 Databricks Workflows parser plugin for IntentDiff (full-parse mode)
 
-- **Source**: git `9024487cd9f3a18a79fdb97d4547a7073f42280d`
+- **Source**: git `a1c4ccf7883fc1257a96fa6fafd379efb7dcdd04`
 - **ABI target**: `1.0.0`
 - **Capabilities**: `parser`
 - **Install**: `intentdiff plugins add intentdiff-databricks-parser`
@@ -136,7 +136,7 @@ Databricks Workflows parser plugin for IntentDiff (full-parse mode)
 
 DAX / Power Query M parser plugin for IntentDiff (full-parse mode)
 
-- **Source**: git `440ea036a47457cc00bc9a44abc1672ba43d2347`
+- **Source**: git `61f5315ee64062c0a01968f9a7067cd8829b6672`
 - **ABI target**: `1.0.0`
 - **Capabilities**: `parser`
 - **Install**: `intentdiff plugins add intentdiff-dax-parser`
@@ -145,7 +145,7 @@ DAX / Power Query M parser plugin for IntentDiff (full-parse mode)
 
 Delphi/Object Pascal parser plugin for IntentDiff (interpret-cst mode)
 
-- **Source**: git `23ee2a5a0ebe1c88aea1271a6aceb751ca690dbc`
+- **Source**: git `6de2ff53d90b4c6b695f624339baee05cdfe7fcd`
 - **ABI target**: `1.0.0`
 - **Capabilities**: `parser`
 - **Install**: `intentdiff plugins add intentdiff-delphi-parser`
@@ -154,7 +154,7 @@ Delphi/Object Pascal parser plugin for IntentDiff (interpret-cst mode)
 
 Dockerfile parser plugin for IntentDiff (interpret-cst mode)
 
-- **Source**: git `08df13a3f8aa12f4f7db9ab5ad26e882f7fc70cf`
+- **Source**: git `d126cde93c00414955341152d4beb1837bc79ef2`
 - **ABI target**: `1.0.0`
 - **Capabilities**: `parser`
 - **Install**: `intentdiff plugins add intentdiff-dockerfile-parser`
@@ -163,7 +163,7 @@ Dockerfile parser plugin for IntentDiff (interpret-cst mode)
 
 Elixir parser plugin for IntentDiff (full-parse mode)
 
-- **Source**: git `92819bb15ffaa0ffbc9ca924ac87e1e554aca987`
+- **Source**: git `cccd9489536f8b96fd7b97b8186ec8cfc4084d5e`
 - **ABI target**: `1.0.0`
 - **Capabilities**: `parser`
 - **Install**: `intentdiff plugins add intentdiff-elixir-parser`
@@ -172,7 +172,7 @@ Elixir parser plugin for IntentDiff (full-parse mode)
 
 FreeBASIC parser plugin for IntentDiff (full-parse lightweight mode)
 
-- **Source**: git `1da1749dcef3533dece560144e855340f8609e9f`
+- **Source**: git `54039dfef981d44c650beaf0fd05c6b46fd17e27`
 - **ABI target**: `1.0.0`
 - **Capabilities**: `parser`
 - **Install**: `intentdiff plugins add intentdiff-freebasic-parser`
@@ -181,7 +181,7 @@ FreeBASIC parser plugin for IntentDiff (full-parse lightweight mode)
 
 Generic (token-level) fallback parser plugin for IntentDiff
 
-- **Source**: git `8577609b34a77091ad5b4ba7d044f21f64fbf367`
+- **Source**: git `e4e40b55e1dd781fe5758f83904a7d9982a64f11`
 - **ABI target**: `1.0.0`
 - **Capabilities**: `parser`
 - **Install**: `intentdiff plugins add intentdiff-generic-parser`
@@ -190,7 +190,7 @@ Generic (token-level) fallback parser plugin for IntentDiff
 
 Dedicated .gitignore / ignore-family full-parse parser plugin for IntentDiff
 
-- **Source**: git `de2c274a819c42774017060a21800099e84e6722`
+- **Source**: git `90d0af6387aa3356adef2cd18ebb1d77cbeaa0a9`
 - **ABI target**: `1.0.0`
 - **Capabilities**: `parser`
 - **Install**: `intentdiff plugins add intentdiff-gitignore-parser`
@@ -199,7 +199,7 @@ Dedicated .gitignore / ignore-family full-parse parser plugin for IntentDiff
 
 Go parser plugin for IntentDiff (full-parse mode)
 
-- **Source**: git `ecb267685dc05d23f59500934043414e4523158f`
+- **Source**: git `b742f885729ddc3de8fff24cb60be8451c561b06`
 - **ABI target**: `1.0.0`
 - **Capabilities**: `parser`
 - **Install**: `intentdiff plugins add intentdiff-go-parser`
@@ -208,7 +208,7 @@ Go parser plugin for IntentDiff (full-parse mode)
 
 go.mod parser plugin for IntentDiff (tree-sitter-gomod grammar, full-parse mode)
 
-- **Source**: git `e3e5e7e55062b23dd2fa7509599bedb3323a1095`
+- **Source**: git `6b55742ed34f651653d8509d3ba98d605dbf7d1a`
 - **ABI target**: `1.0.0`
 - **Capabilities**: `parser`
 - **Install**: `intentdiff plugins add intentdiff-gomod-parser`
@@ -217,7 +217,7 @@ go.mod parser plugin for IntentDiff (tree-sitter-gomod grammar, full-parse mode)
 
 Lightweight GraphQL full-parse parser plugin for IntentDiff
 
-- **Source**: git `95ceea802f30f712552be092d1e28e11da8fc2ef`
+- **Source**: git `b3147e377e3ab59ac59ef308187036a5e04e807b`
 - **ABI target**: `1.0.0`
 - **Capabilities**: `parser`
 - **Install**: `intentdiff plugins add intentdiff-graphql-parser`
@@ -226,7 +226,7 @@ Lightweight GraphQL full-parse parser plugin for IntentDiff
 
 Groovy parser plugin for IntentDiff (full-parse mode)
 
-- **Source**: git `fd16445bdf1409be1ae101a12255b1851fabd5c0`
+- **Source**: git `01ef1ae2bd769c77038ff3f22863ba60998f46bc`
 - **ABI target**: `1.0.0`
 - **Capabilities**: `parser`
 - **Install**: `intentdiff plugins add intentdiff-groovy-parser`
@@ -235,7 +235,7 @@ Groovy parser plugin for IntentDiff (full-parse mode)
 
 Haskell parser plugin for IntentDiff (full-parse mode)
 
-- **Source**: git `54ad3e3e4241fad1b0975329ac0b3a6fa5c33cdd`
+- **Source**: git `f2d274e2dc5409cae4d63e322afa86818098de65`
 - **ABI target**: `1.0.0`
 - **Capabilities**: `parser`
 - **Install**: `intentdiff plugins add intentdiff-haskell-parser`
@@ -244,7 +244,7 @@ Haskell parser plugin for IntentDiff (full-parse mode)
 
 HTML parser plugin for IntentDiff (full-parse mode)
 
-- **Source**: git `7a0b87f50f7d94eb4563e7db44a11460582b05b3`
+- **Source**: git `2a0ab835e94270a362f1daa3da0977dc9be2fda9`
 - **ABI target**: `1.0.0`
 - **Capabilities**: `parser`
 - **Install**: `intentdiff plugins add intentdiff-html-parser`
@@ -253,7 +253,7 @@ HTML parser plugin for IntentDiff (full-parse mode)
 
 INI parser plugin for IntentDiff (tree-sitter-ini grammar, full-parse mode)
 
-- **Source**: git `02f2bef00dcf0db23cd6a059c6b9ebb0d1b3a68d`
+- **Source**: git `35564a2ee6933ad38d437c866ae5edff7bbd609b`
 - **ABI target**: `1.0.0`
 - **Capabilities**: `parser`
 - **Install**: `intentdiff plugins add intentdiff-ini-parser`
@@ -262,7 +262,7 @@ INI parser plugin for IntentDiff (tree-sitter-ini grammar, full-parse mode)
 
 Java parser plugin for IntentDiff (full-parse mode)
 
-- **Source**: git `256e5e31fa4fed09802d533753a536f48f31cf74`
+- **Source**: git `833884e275b6ce6a01c7f908ce996b793120123c`
 - **ABI target**: `1.0.0`
 - **Capabilities**: `parser`
 - **Install**: `intentdiff plugins add intentdiff-java-parser`
@@ -271,7 +271,7 @@ Java parser plugin for IntentDiff (full-parse mode)
 
 JavaScript / TypeScript parser plugin for IntentDiff (full-parse mode)
 
-- **Source**: git `7b0308bdb359ae7c5bd25bb86e570df51fe2d69a`
+- **Source**: git `11ec141ba10c716cd98c566a7a5a3a505eca3c3f`
 - **ABI target**: `1.0.0`
 - **Capabilities**: `parser`
 - **Install**: `intentdiff plugins add intentdiff-js-ts-parser`
@@ -280,7 +280,7 @@ JavaScript / TypeScript parser plugin for IntentDiff (full-parse mode)
 
 JSON parser plugin for IntentDiff (full-parse mode)
 
-- **Source**: git `74f4515ed576e040cbfe8e61d8dc5b1d6f67db9e`
+- **Source**: git `12c529fcb98cf5928bca2a8569e1ae13a3ba4a94`
 - **ABI target**: `1.0.0`
 - **Capabilities**: `parser`
 - **Install**: `intentdiff plugins add intentdiff-json-parser`
@@ -289,7 +289,7 @@ JSON parser plugin for IntentDiff (full-parse mode)
 
 Kotlin parser plugin for IntentDiff (full-parse mode)
 
-- **Source**: git `3d586c4ef3c7b5b5c50424413c4cbdbb0481076d`
+- **Source**: git `d11d85844c1c9c7f4139726a8dac27cc5b839c82`
 - **ABI target**: `1.0.0`
 - **Capabilities**: `parser`
 - **Install**: `intentdiff plugins add intentdiff-kotlin-parser`
@@ -298,7 +298,7 @@ Kotlin parser plugin for IntentDiff (full-parse mode)
 
 Lightweight LaTeX full-parse parser plugin for IntentDiff
 
-- **Source**: git `b031105868d742bc9db6e5799a7e431dcc35d413`
+- **Source**: git `3fbf38ac1ec83d08537ed28f50a074eaaabb473a`
 - **ABI target**: `1.0.0`
 - **Capabilities**: `parser`
 - **Install**: `intentdiff plugins add intentdiff-latex-parser`
@@ -307,7 +307,7 @@ Lightweight LaTeX full-parse parser plugin for IntentDiff
 
 Lua parser plugin for IntentDiff (full-parse mode)
 
-- **Source**: git `9888401ee1217458994dd6c7e621c175abcbd431`
+- **Source**: git `60ad55f15b33aa4df33ec193a691580ccb1c08c2`
 - **ABI target**: `1.0.0`
 - **Capabilities**: `parser`
 - **Install**: `intentdiff plugins add intentdiff-lua-parser`
@@ -316,7 +316,7 @@ Lua parser plugin for IntentDiff (full-parse mode)
 
 Makefile parser plugin for IntentDiff (tree-sitter-make grammar, full-parse mode)
 
-- **Source**: git `65865b0a473a652beafe20baf1f4a0d05c10af12`
+- **Source**: git `6621ea06a3f907660d49188e1a04f51a9df2464e`
 - **ABI target**: `1.0.0`
 - **Capabilities**: `parser`
 - **Install**: `intentdiff plugins add intentdiff-make-parser`
@@ -325,7 +325,7 @@ Makefile parser plugin for IntentDiff (tree-sitter-make grammar, full-parse mode
 
 Markdown parser plugin for IntentDiff (tree-sitter-md block grammar, full-parse mode)
 
-- **Source**: git `bc869f3beff3abf55a2da0fdd1e3800ef5adf56e`
+- **Source**: git `7f7d777cc9237ce880334b2eb22a28fc1900c0ec`
 - **ABI target**: `1.0.0`
 - **Capabilities**: `parser`
 - **Install**: `intentdiff plugins add intentdiff-markdown-parser`
@@ -334,7 +334,7 @@ Markdown parser plugin for IntentDiff (tree-sitter-md block grammar, full-parse 
 
 MDX (Markdown + JSX) parser plugin for IntentDiff (full-parse mode)
 
-- **Source**: git `642db3cfb0c64956c5e7847298619a206137728b`
+- **Source**: git `19d82d06846c47e1e56c2a029f4f7b8f0b149296`
 - **ABI target**: `1.0.0`
 - **Capabilities**: `parser`
 - **Install**: `intentdiff plugins add intentdiff-mdx-parser`
@@ -343,7 +343,7 @@ MDX (Markdown + JSX) parser plugin for IntentDiff (full-parse mode)
 
 Lightweight OCaml full-parse parser plugin for IntentDiff
 
-- **Source**: git `b38fcb3b436fc32edf08e44fa75b18c0dd71c219`
+- **Source**: git `561f25a3e9fd896a0de162a1143f38a71bbe23ef`
 - **ABI target**: `1.0.0`
 - **Capabilities**: `parser`
 - **Install**: `intentdiff plugins add intentdiff-ocaml-parser`
@@ -352,7 +352,7 @@ Lightweight OCaml full-parse parser plugin for IntentDiff
 
 Odin parser plugin for IntentDiff (full-parse mode)
 
-- **Source**: git `d204e6df449bd956cd8943ed4bf325a0093af5bb`
+- **Source**: git `53fdd2dd8c3a587c4b94ff7ad1df37915ba800b9`
 - **ABI target**: `1.0.0`
 - **Capabilities**: `parser`
 - **Install**: `intentdiff plugins add intentdiff-odin-parser`
@@ -361,7 +361,7 @@ Odin parser plugin for IntentDiff (full-parse mode)
 
 Perl parser plugin for IntentDiff (full-parse mode)
 
-- **Source**: git `4ca198d714c0d03f43e977015e00ebe12d0408a3`
+- **Source**: git `91920f0fbdc6c2d83d5b920bd1b037a7808d131d`
 - **ABI target**: `1.0.0`
 - **Capabilities**: `parser`
 - **Install**: `intentdiff plugins add intentdiff-perl-parser`
@@ -370,7 +370,7 @@ Perl parser plugin for IntentDiff (full-parse mode)
 
 PHP parser plugin for IntentDiff (full-parse mode)
 
-- **Source**: git `4de85427f5a141a9af99f9f977545e1befc2433d`
+- **Source**: git `957d236538dc174e08f9d94730a18a77e64621ff`
 - **ABI target**: `1.0.0`
 - **Capabilities**: `parser`
 - **Install**: `intentdiff plugins add intentdiff-php-parser`
@@ -379,7 +379,7 @@ PHP parser plugin for IntentDiff (full-parse mode)
 
 PL/SQL (Oracle) parser plugin for IntentDiff (full-parse mode)
 
-- **Source**: git `c50f728f7f462163cb7385aaba06549ca95d5775`
+- **Source**: git `40ab209d52d3cf02541984870ed12c66137d3578`
 - **ABI target**: `1.0.0`
 - **Capabilities**: `parser`
 - **Install**: `intentdiff plugins add intentdiff-plsql-parser`
@@ -388,7 +388,7 @@ PL/SQL (Oracle) parser plugin for IntentDiff (full-parse mode)
 
 Lightweight PO/gettext full-parse parser plugin for IntentDiff
 
-- **Source**: git `3f6bb62342830504ed2bd27fe844f470ce4d7b12`
+- **Source**: git `300f34e5bfb01980b6b7a6d35f4facf411ebe472`
 - **ABI target**: `1.0.0`
 - **Capabilities**: `parser`
 - **Install**: `intentdiff plugins add intentdiff-po-parser`
@@ -397,7 +397,7 @@ Lightweight PO/gettext full-parse parser plugin for IntentDiff
 
 PostScript parser plugin for IntentDiff (full-parse mode)
 
-- **Source**: git `c455b67502f367979d442c953cf56a5ad3b15927`
+- **Source**: git `85be43e3699f7feba114e48444eeab1f783aeea7`
 - **ABI target**: `1.0.0`
 - **Capabilities**: `parser`
 - **Install**: `intentdiff plugins add intentdiff-postscript-parser`
@@ -406,7 +406,7 @@ PostScript parser plugin for IntentDiff (full-parse mode)
 
 PowerShell parser plugin for IntentDiff (full-parse mode)
 
-- **Source**: git `5e364b4c8fe427c12bae5a2af1c875412f51e421`
+- **Source**: git `5b787430d9a9a7c5eba8d5c2005f88c3ae3728fd`
 - **ABI target**: `1.0.0`
 - **Capabilities**: `parser`
 - **Install**: `intentdiff plugins add intentdiff-powershell-parser`
@@ -415,7 +415,7 @@ PowerShell parser plugin for IntentDiff (full-parse mode)
 
 Protocol Buffers parser plugin for IntentDiff (tree-sitter-proto grammar, full-parse mode)
 
-- **Source**: git `fa98caf4a3d053b2d9b58546e9bd96b5916b2e29`
+- **Source**: git `43777cc3c0c80754b82c4fa657c5282166a0bd02`
 - **ABI target**: `1.0.0`
 - **Capabilities**: `parser`
 - **Install**: `intentdiff plugins add intentdiff-proto-parser`
@@ -424,7 +424,7 @@ Protocol Buffers parser plugin for IntentDiff (tree-sitter-proto grammar, full-p
 
 Puppet parser plugin for IntentDiff (full-parse mode)
 
-- **Source**: git `1f88851acc8c22c424f04d73c3ac8ff2a701f341`
+- **Source**: git `baaa7d129f39decd9ce638a71bb068685535875a`
 - **ABI target**: `1.0.0`
 - **Capabilities**: `parser`
 - **Install**: `intentdiff plugins add intentdiff-puppet-parser`
@@ -433,7 +433,7 @@ Puppet parser plugin for IntentDiff (full-parse mode)
 
 Python parser plugin for IntentDiff (full-parse mode)
 
-- **Source**: git `91c2e24a38d073884b8560cb213360cf5e73e692`
+- **Source**: git `94e2669b8734e6ebbaee79b4d41e8ecb313b6531`
 - **ABI target**: `1.0.0`
 - **Capabilities**: `parser`
 - **Install**: `intentdiff plugins add intentdiff-python-parser`
@@ -442,7 +442,7 @@ Python parser plugin for IntentDiff (full-parse mode)
 
 Q# (Microsoft Quantum) parser plugin for IntentDiff (full-parse mode)
 
-- **Source**: git `3cf7d182bfe1fee688768b9ed676b13d32855ecd`
+- **Source**: git `9b7c810965e8fd3cc6cb478648176aa419a7f293`
 - **ABI target**: `1.0.0`
 - **Capabilities**: `parser`
 - **Install**: `intentdiff plugins add intentdiff-qsharp-parser`
@@ -451,7 +451,7 @@ Q# (Microsoft Quantum) parser plugin for IntentDiff (full-parse mode)
 
 R parser plugin for IntentDiff (interpret-cst mode)
 
-- **Source**: git `2188dcca09e64090967498e03a744bc34fdee690`
+- **Source**: git `2b4614bf167677ce5de31629b081cf89c118b55f`
 - **ABI target**: `1.0.0`
 - **Capabilities**: `parser`
 - **Install**: `intentdiff plugins add intentdiff-r-parser`
@@ -460,7 +460,7 @@ R parser plugin for IntentDiff (interpret-cst mode)
 
 Lightweight ReasonML full-parse parser plugin for IntentDiff
 
-- **Source**: git `a8bbc86131e31179160456ad348d746425e37c35`
+- **Source**: git `3eaf8637fd28bc4051f05b494e8d2d695a552aae`
 - **ABI target**: `1.0.0`
 - **Capabilities**: `parser`
 - **Install**: `intentdiff plugins add intentdiff-reasonml-parser`
@@ -469,7 +469,7 @@ Lightweight ReasonML full-parse parser plugin for IntentDiff
 
 Ruby parser plugin for IntentDiff (full-parse mode)
 
-- **Source**: git `65905b983c80b5fb37362ffde64e1ea3b5cc903f`
+- **Source**: git `139a1f12873206a5a03d23c4a8ab0fd527a37c4c`
 - **ABI target**: `1.0.0`
 - **Capabilities**: `parser`
 - **Install**: `intentdiff plugins add intentdiff-ruby-parser`
@@ -478,7 +478,7 @@ Ruby parser plugin for IntentDiff (full-parse mode)
 
 Rust parser plugin for IntentDiff (full-parse mode)
 
-- **Source**: git `24897a53dfa706be1c7424e35364e2b5ce217b0c`
+- **Source**: git `ae561813fa743923387ba0a45ee69634acd992fc`
 - **ABI target**: `1.0.0`
 - **Capabilities**: `parser`
 - **Install**: `intentdiff plugins add intentdiff-rust-parser`
@@ -487,7 +487,7 @@ Rust parser plugin for IntentDiff (full-parse mode)
 
 SAS parser plugin for IntentDiff (full-parse mode)
 
-- **Source**: git `0af95256b34e38fa9fef86201ca7e5faf6873a4a`
+- **Source**: git `ff90d678b8f6e1cce1bcf97e536b9d850be72b31`
 - **ABI target**: `1.0.0`
 - **Capabilities**: `parser`
 - **Install**: `intentdiff plugins add intentdiff-sas-parser`
@@ -496,7 +496,7 @@ SAS parser plugin for IntentDiff (full-parse mode)
 
 Scala parser plugin for IntentDiff (full-parse mode)
 
-- **Source**: git `2501ef17a1c5f06a7c8652726d7d1e93a8f9698b`
+- **Source**: git `f381dee1e54f8738fa80170a4b323be763999989`
 - **ABI target**: `1.0.0`
 - **Capabilities**: `parser`
 - **Install**: `intentdiff plugins add intentdiff-scala-parser`
@@ -505,7 +505,7 @@ Scala parser plugin for IntentDiff (full-parse mode)
 
 SCSS parser plugin for IntentDiff (full-parse mode)
 
-- **Source**: git `b14928545a74b35ad8cafd437cfc2ebfd1a89350`
+- **Source**: git `c3ddebb48434a10ba0638c92c1a70579d4e1b903`
 - **ABI target**: `1.0.0`
 - **Capabilities**: `parser`
 - **Install**: `intentdiff plugins add intentdiff-scss-parser`
@@ -514,7 +514,7 @@ SCSS parser plugin for IntentDiff (full-parse mode)
 
 SQL parser plugin for IntentDiff (full-parse mode)
 
-- **Source**: git `977851e37000df89cc7aa991c22f4e78e6de6966`
+- **Source**: git `5d9350be01d5dc629131ae7ed7920968e42a457c`
 - **ABI target**: `1.0.0`
 - **Capabilities**: `parser`
 - **Install**: `intentdiff plugins add intentdiff-sql-parser`
@@ -523,7 +523,7 @@ SQL parser plugin for IntentDiff (full-parse mode)
 
 Squirrel parser plugin for IntentDiff (interpret-cst mode)
 
-- **Source**: git `b90e5a27abf5d88235ef94075e9821f6f74fd9ba`
+- **Source**: git `a57bc1d01b0b12bc068b52d59e90b7a274e720db`
 - **ABI target**: `1.0.0`
 - **Capabilities**: `parser`
 - **Install**: `intentdiff plugins add intentdiff-squirrel-parser`
@@ -532,7 +532,7 @@ Squirrel parser plugin for IntentDiff (interpret-cst mode)
 
 Svelte component parser plugin for IntentDiff (full-parse mode)
 
-- **Source**: git `2facc068151178e7e50e5876f2573c715d72bb55`
+- **Source**: git `44377a0feaf9487b2cc5d72c0ae3077c508c0e9e`
 - **ABI target**: `1.0.0`
 - **Capabilities**: `parser`
 - **Install**: `intentdiff plugins add intentdiff-svelte-parser`
@@ -541,7 +541,7 @@ Svelte component parser plugin for IntentDiff (full-parse mode)
 
 Swift parser plugin for IntentDiff (full-parse mode)
 
-- **Source**: git `9c5217016bce3803f954f9e1684552604fb099aa`
+- **Source**: git `8bbea24785d879bc406206de42f2459eaf95fcfd`
 - **ABI target**: `1.0.0`
 - **Capabilities**: `parser`
 - **Install**: `intentdiff plugins add intentdiff-swift-parser`
@@ -550,7 +550,7 @@ Swift parser plugin for IntentDiff (full-parse mode)
 
 Terraform/HCL parser plugin for IntentDiff (full-parse mode)
 
-- **Source**: git `03b05a7846c3efe71fdd2c40ed752f2e9efd86a6`
+- **Source**: git `022ed25122936f1030150734d9cefd598bcb20ba`
 - **ABI target**: `1.0.0`
 - **Capabilities**: `parser`
 - **Install**: `intentdiff plugins add intentdiff-terraform-parser`
@@ -559,7 +559,7 @@ Terraform/HCL parser plugin for IntentDiff (full-parse mode)
 
 TOML parser plugin for IntentDiff (tree-sitter-toml-ng grammar, full-parse mode)
 
-- **Source**: git `f94cf6d2787e39cbc37f07546ab1fb3fc7d3f90b`
+- **Source**: git `d805bbb98642dd94ddcbf6b8754411bb9894b849`
 - **ABI target**: `1.0.0`
 - **Capabilities**: `parser`
 - **Install**: `intentdiff plugins add intentdiff-toml-parser`
@@ -568,7 +568,7 @@ TOML parser plugin for IntentDiff (tree-sitter-toml-ng grammar, full-parse mode)
 
 T-SQL (Microsoft SQL Server) parser plugin for IntentDiff (full-parse mode)
 
-- **Source**: git `34fd8d6fdbae38706837b364a4222744b9b4c962`
+- **Source**: git `58124178b9f385d21b42270fd79b5b10b5c61b5f`
 - **ABI target**: `1.0.0`
 - **Capabilities**: `parser`
 - **Install**: `intentdiff plugins add intentdiff-tsql-parser`
@@ -577,7 +577,7 @@ T-SQL (Microsoft SQL Server) parser plugin for IntentDiff (full-parse mode)
 
 Visual Basic .NET parser plugin for IntentDiff (full-parse mode)
 
-- **Source**: git `3ddd3a0b7b5fceff5b14666a6ed3df3191fb6dee`
+- **Source**: git `a581f3be0f47bec3aa86f699ec90a5f49a09b3a2`
 - **ABI target**: `1.0.0`
 - **Capabilities**: `parser`
 - **Install**: `intentdiff plugins add intentdiff-vbnet-parser`
@@ -586,7 +586,7 @@ Visual Basic .NET parser plugin for IntentDiff (full-parse mode)
 
 Vue SFC parser plugin for IntentDiff (full-parse mode)
 
-- **Source**: git `cfd5ea0641a7fe4f477c694ee4d7544ce9df2dfd`
+- **Source**: git `cb2a0277baf1d9483cd3a476ac5070991cdfcaf7`
 - **ABI target**: `1.0.0`
 - **Capabilities**: `parser`
 - **Install**: `intentdiff plugins add intentdiff-vue-parser`
@@ -595,7 +595,7 @@ Vue SFC parser plugin for IntentDiff (full-parse mode)
 
 WebAssembly Text (WAT) parser plugin for IntentDiff (interpret-cst mode)
 
-- **Source**: git `004f42e68eab22ba2d4ae4af860d1e229300e22f`
+- **Source**: git `0488d774b60a17fc9564726032e740b7113bb2b9`
 - **ABI target**: `1.0.0`
 - **Capabilities**: `parser`
 - **Install**: `intentdiff plugins add intentdiff-wat-parser`
@@ -604,7 +604,7 @@ WebAssembly Text (WAT) parser plugin for IntentDiff (interpret-cst mode)
 
 XML parser plugin for IntentDiff (full-parse mode)
 
-- **Source**: git `c0d873be26d9d2c741ac2af6935f1efc24fb5a22`
+- **Source**: git `7a42a60997e8714e17aad0dc25bb53f2477ac627`
 - **ABI target**: `1.0.0`
 - **Capabilities**: `parser`
 - **Install**: `intentdiff plugins add intentdiff-xml-parser`
@@ -613,7 +613,7 @@ XML parser plugin for IntentDiff (full-parse mode)
 
 YAML parser plugin for IntentDiff (full-parse mode)
 
-- **Source**: git `3e71ba6dabca8d8571fbfb919300f72293e439b6`
+- **Source**: git `085667b5119fcf68ade59de3f51282cbbedfa660`
 - **ABI target**: `1.0.0`
 - **Capabilities**: `parser`
 - **Install**: `intentdiff plugins add intentdiff-yaml-parser`
@@ -622,7 +622,7 @@ YAML parser plugin for IntentDiff (full-parse mode)
 
 Zig parser plugin for IntentDiff (full-parse mode)
 
-- **Source**: git `26e4796fc26400fb8c852e21e27be29828526456`
+- **Source**: git `7d47b4cc8a772de061c7bc7056adbf27bd99f30e`
 - **ABI target**: `1.0.0`
 - **Capabilities**: `parser`
 - **Install**: `intentdiff plugins add intentdiff-zig-parser`
