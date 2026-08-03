@@ -271,7 +271,7 @@ Java parser plugin for IntentDiff (full-parse mode)
 
 JavaScript / TypeScript parser plugin for IntentDiff (full-parse mode)
 
-- **Source**: git `11ec141ba10c716cd98c566a7a5a3a505eca3c3f`
+- **Source**: git `2c3c7709583b52203217543ecf7e931aabd476f7`
 - **ABI target**: `1.0.0`
 - **Capabilities**: `parser`
 - **Install**: `intentdiff plugins add intentdiff-js-ts-parser`
