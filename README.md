@@ -1,11 +1,11 @@
-# intentdiff-registry
+# intentumdiff-registry
 
-[![Vet gate](https://github.com/buchochelliq-labs/intentdiff-registry/actions/workflows/vet.yml/badge.svg)](https://github.com/buchochelliq-labs/intentdiff-registry/actions/workflows/vet.yml)
+[![Vet gate](https://github.com/buchochelliq-labs/intentumdiff-registry/actions/workflows/vet.yml/badge.svg)](https://github.com/buchochelliq-labs/intentumdiff-registry/actions/workflows/vet.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Plugins: 69](https://img.shields.io/badge/plugins-69-brightgreen.svg)](CATALOG.md)
 
-The **official IntentDiff plugin registry** — the root of trust for plugin discovery and
-verified installs. The IntentDiff client fetches `registry.yaml` from this repo; an entry
+The **official IntentumDiff plugin registry** — the root of trust for plugin discovery and
+verified installs. The IntentumDiff client fetches `registry.yaml` from this repo; an entry
 here asserts what a plugin is, where it comes from, and the exact artifact checksums an
 install must match.
 
@@ -34,8 +34,8 @@ install must match.
 
 ## Provenance
 
-Schema and validator are vendored from the IntentDiff monorepo
-(`buchochelliq-labs/intentdiff`), which remains the archive of record; the master copies
+Schema and validator are vendored from the IntentumDiff monorepo
+(`buchochelliq-labs/intentumdiff`), which remains the archive of record; the master copies
 live with the Python binding until its extraction.
 
 License: MIT.

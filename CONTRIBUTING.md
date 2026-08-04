@@ -1,4 +1,4 @@
-# Contributing to intentdiff-registry
+# Contributing to intentumdiff-registry
 
 - Plugin submissions: [docs/SUBMITTING.md](docs/SUBMITTING.md).
 - Validate locally before pushing (needs only PyYAML):

@@ -18,7 +18,7 @@ import re
 from importlib import resources
 from typing import Any
 
-_NAME_RE = re.compile(r"^(?:intentdiff-)?[A-Za-z0-9][A-Za-z0-9._-]{0,127}$")
+_NAME_RE = re.compile(r"^(?:intentumdiff-)?[A-Za-z0-9][A-Za-z0-9._-]{0,127}$")
 _WASM_FILE_RE = re.compile(r"^[A-Za-z0-9._-]+\.wasm$")
 _SHA256_RE = re.compile(r"^[a-f0-9]{64}$")
 _DEP_HASH_RE = re.compile(r"^sha256:[a-f0-9]{64}$")
@@ -28,7 +28,7 @@ _SOURCE_VALUES = frozenset({"git", "pypi"})
 _TRUST_TIERS = frozenset({"official", "community"})
 
 #: The plugin-contract ABI version this host implements. Mirrors ``package
-#: intentdiff:plugin@X`` in ``plugins/wit/plugin.wit``; the drift-guard test
+#: intentumdiff:plugin@X`` in ``plugins/wit/plugin.wit``; the drift-guard test
 #: ``test_host_contract_version_matches_the_wit`` pins them together so a WIT bump forces a
 #: conscious host bump (#94: the host must know which contract version it speaks).
 HOST_CONTRACT_VERSION = "1.0.0"
@@ -78,7 +78,7 @@ _TOP_LEVEL_FIELDS = frozenset({"version", "plugins"})
 
 def load_schema() -> dict[str, Any]:
     """Return the packaged registry JSON Schema."""
-    text = resources.files("intentdiff.plugins").joinpath("registry.schema.json").read_text(
+    text = resources.files("intentumdiff.plugins").joinpath("registry.schema.json").read_text(
         encoding="utf-8"
     )
     return json.loads(text)
@@ -172,11 +172,11 @@ def _effective_tier(entry: dict) -> str:
 def _install_target(name: str, entry: dict) -> str:
     ref = entry.get("ref", "")
     if entry.get("source") == "pypi":
-        return f"intentdiff-{name}=={ref}" if ref else f"intentdiff-{name}"
+        return f"intentumdiff-{name}=={ref}" if ref else f"intentumdiff-{name}"
     return name
 
 
-def render_catalog_markdown(registry: Any, *, title: str = "IntentDiff plugin catalog") -> str:
+def render_catalog_markdown(registry: Any, *, title: str = "IntentumDiff plugin catalog") -> str:
     """Render a browsable Markdown discovery catalog from a registry manifest (#95).
 
     The manifest stays the source of truth; this is a generated VIEW — official plugins first,
@@ -215,7 +215,7 @@ def render_catalog_markdown(registry: Any, *, title: str = "IntentDiff plugin ca
             caps = entry.get("capabilities") or []
             if caps:
                 lines.append(f"- **Capabilities**: {', '.join(f'`{c}`' for c in caps)}")
-            lines.append(f"- **Install**: `intentdiff plugins add {_install_target(name, entry)}`")
+            lines.append(f"- **Install**: `intentumdiff plugins add {_install_target(name, entry)}`")
             lines.append("")
 
     _section("Official", official, "Org-built and scanned; checksums verified on install.")
@@ -242,7 +242,7 @@ def _load_registry_document(path: str) -> Any:
 
 def main(argv: list[str] | None = None) -> int:
     """CLI for the #95 vetting pipeline: validate a registry manifest, exit non-zero on any
-    violation. The plugins-repo PR gate runs ``python -m intentdiff.plugins.registry_schema
+    violation. The plugins-repo PR gate runs ``python -m intentumdiff.plugins.registry_schema
     registry.yaml`` (alongside the checksum/capability/provenance checks) to block a bad entry
     before merge."""
     import argparse

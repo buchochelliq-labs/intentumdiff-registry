@@ -1,7 +1,7 @@
 # Submitting a plugin entry
 
 1. **Build + verify your plugin** per the
-   [plugin guide](https://github.com/buchochelliq-labs/intentdiff-plugin-sdk/blob/main/docs/PLUGIN_GUIDE.md)
+   [plugin guide](https://github.com/buchochelliq-labs/intentumdiff-plugin-sdk/blob/main/docs/PLUGIN_GUIDE.md)
    (deterministic tree, compliance tests green, component builds for `wasm32-wasip2`).
 2. **Compute artifact checksums**: SHA-256 of each bundled `.wasm` (lowercase hex).
 3. **Add your entry** to `registry.yaml` under `plugins:` — key = your package-safe name:

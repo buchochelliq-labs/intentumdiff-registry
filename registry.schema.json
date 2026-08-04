@@ -1,8 +1,8 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://intentdiff.dev/schemas/registry.schema.json",
-  "title": "IntentDiff plugin registry manifest",
-  "description": "Schema for the official plugin registry (buchochelliq-labs/intentdiff-registry/registry.yaml) that `intentdiff.plugins.hub` fetches. The registry is the root of trust: adding a plugin is a PR whose CI vets it against this schema plus checksum/capability/provenance verification (#95). The known fields mirror the RegistryEntry the client already parses; `trust_tier`, `capabilities`, `abi_target` (#94), and `provenance_manifest_ref` (#89) formalise the trust/compat surface.",
+  "$id": "https://intentumdiff.dev/schemas/registry.schema.json",
+  "title": "IntentumDiff plugin registry manifest",
+  "description": "Schema for the official plugin registry (buchochelliq-labs/intentumdiff-registry/registry.yaml) that `intentumdiff.plugins.hub` fetches. The registry is the root of trust: adding a plugin is a PR whose CI vets it against this schema plus checksum/capability/provenance verification (#95). The known fields mirror the RegistryEntry the client already parses; `trust_tier`, `capabilities`, `abi_target` (#94), and `provenance_manifest_ref` (#89) formalise the trust/compat surface.",
   "type": "object",
   "required": ["version", "plugins"],
   "additionalProperties": false,
@@ -22,7 +22,7 @@
   "$defs": {
     "plugin_name": {
       "type": "string",
-      "pattern": "^(?:intentdiff-)?[A-Za-z0-9][A-Za-z0-9._-]{0,127}$",
+      "pattern": "^(?:intentumdiff-)?[A-Za-z0-9][A-Za-z0-9._-]{0,127}$",
       "description": "Package-safe plugin name (mirrors _PLUGIN_NAME_RE in hub.py); never a URL, path, or requirement expression."
     },
     "sha256": {

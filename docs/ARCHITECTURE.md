@@ -1,4 +1,4 @@
-# intentdiff-registry architecture — the root of trust
+# intentumdiff-registry architecture — the root of trust
 
 The registry decouples *how many plugin repos exist* from *what is trusted*. The client
 fetches `registry.yaml` from this repo; an entry asserts identity, provenance, and the exact
@@ -26,5 +26,5 @@ registry change cannot merge unvetted. `CATALOG.md` is generated from the manife
 stay in sync.
 
 Schema/validator masters currently live with the Python binding
-([intentdiff-python](https://github.com/buchochelliq-labs/intentdiff-python)); the copies here
+([intentumdiff-python](https://github.com/buchochelliq-labs/intentumdiff-python)); the copies here
 are vendored for the gate.
