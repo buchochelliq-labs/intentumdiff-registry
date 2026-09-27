@@ -267,10 +267,10 @@ plugins:
     abi_target: "1.0.0"
   intentumdiff-js-ts-parser:
     source: git
-    ref: 2c3c7709583b52203217543ecf7e931aabd476f7
+    ref: c007224439a623d72209e9a83b9bb519227ef569
     description: "JavaScript / TypeScript parser plugin for IntentumDiff (full-parse mode)"
     wasm_checksums:
-      js_ts_parser.wasm: e4521731d2604fd46036386cecad711aec24f3eef373d109e7ad315b3508d61a
+      js_ts_parser.wasm: 3990e217dbadb3624a2793f9a08c600b1e9c3b6d0accfbf7b5fe50712a7e8a42
     trust_tier: official
     capabilities: [parser]
     abi_target: "1.0.0"
