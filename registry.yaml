@@ -528,10 +528,10 @@ plugins:
     abi_target: "1.0.0"
   intentumdiff-svelte-parser:
     source: git
-    ref: 13efcfa9d5f7a22ff7b99930b71a5556482a66d8
+    ref: 63b021c0b721a52d6fc7eac54416fea38ac78774
     description: "Svelte component parser plugin for IntentumDiff (full-parse mode)"
     wasm_checksums:
-      svelte_parser.wasm: cbd24acf89a68a0fd4beb9dd360f427d9716eead57914c59d8e2c007d2ae93c6
+      svelte_parser.wasm: 667db72dcf8e48f77c7422bcedca8947901d640587a0927c3f8a4a55c797f848
     trust_tier: official
     capabilities: [parser]
     abi_target: "1.0.0"
