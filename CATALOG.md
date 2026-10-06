@@ -532,7 +532,7 @@ Squirrel parser plugin for IntentumDiff (interpret-cst mode)
 
 Svelte component parser plugin for IntentumDiff (full-parse mode)
 
-- **Source**: git `8b8ccbbac4b7daf70c8b513bbf8b29aa62a4ae72`
+- **Source**: git `13efcfa9d5f7a22ff7b99930b71a5556482a66d8`
 - **ABI target**: `1.0.0`
 - **Capabilities**: `parser`
 - **Install**: `intentumdiff plugins add intentumdiff-svelte-parser`
