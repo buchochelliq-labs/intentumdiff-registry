@@ -19,7 +19,7 @@ ABAP (SAP) parser plugin for IntentumDiff (full-parse mode)
 
 Azure Data Factory pipeline parser plugin for IntentumDiff (full-parse mode)
 
-- **Source**: git `82eac604a9301c298b0c58878c0d1f6f03ba6f3d`
+- **Source**: git `c74e01a8f8187e9afc2af33866791f9a99c8c0b7`
 - **ABI target**: `1.0.0`
 - **Capabilities**: `parser`
 - **Install**: `intentumdiff plugins add intentumdiff-adf-parser`
@@ -127,7 +127,7 @@ Dart parser plugin for IntentumDiff (interpret-cst mode)
 
 Databricks Workflows parser plugin for IntentumDiff (full-parse mode)
 
-- **Source**: git `2fe51d492933c27f7769c81b6bc1a30f6decfca2`
+- **Source**: git `0b09ca49c308b34560d750b33674fce51e3e979b`
 - **ABI target**: `1.0.0`
 - **Capabilities**: `parser`
 - **Install**: `intentumdiff plugins add intentumdiff-databricks-parser`
@@ -334,7 +334,7 @@ Markdown parser plugin for IntentumDiff (tree-sitter-md block grammar, full-pars
 
 MDX (Markdown + JSX) parser plugin for IntentumDiff (full-parse mode)
 
-- **Source**: git `265917e88280a6d259f3ccffba7c79ec91b60a50`
+- **Source**: git `dca8689687b674134526be727b8b3253fe115d68`
 - **ABI target**: `1.0.0`
 - **Capabilities**: `parser`
 - **Install**: `intentumdiff plugins add intentumdiff-mdx-parser`
@@ -487,7 +487,7 @@ Rust parser plugin for IntentumDiff (full-parse mode)
 
 SAS parser plugin for IntentumDiff (full-parse mode)
 
-- **Source**: git `170cec15e39d064f082c47515a7f5efa3a2817bf`
+- **Source**: git `9459a5fc8d498391c05ba7c8fc957abd66cda29a`
 - **ABI target**: `1.0.0`
 - **Capabilities**: `parser`
 - **Install**: `intentumdiff plugins add intentumdiff-sas-parser`
