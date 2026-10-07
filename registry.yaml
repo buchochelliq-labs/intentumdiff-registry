@@ -15,10 +15,10 @@ plugins:
     abi_target: "1.0.0"
   intentumdiff-adf-parser:
     source: git
-    ref: 82eac604a9301c298b0c58878c0d1f6f03ba6f3d
+    ref: c74e01a8f8187e9afc2af33866791f9a99c8c0b7
     description: "Azure Data Factory pipeline parser plugin for IntentumDiff (full-parse mode)"
     wasm_checksums:
-      adf_parser.wasm: 264dc42642c6e27522f789ed5c6559581a82510778ab38495e1eeacec48540f2
+      adf_parser.wasm: 941113f3bff97f3e9c670a4c77d33acbd83752a781c7b4caf0a48bc77364f7db
     trust_tier: official
     capabilities: [parser]
     abi_target: "1.0.0"
@@ -123,10 +123,10 @@ plugins:
     abi_target: "1.0.0"
   intentumdiff-databricks-parser:
     source: git
-    ref: 2fe51d492933c27f7769c81b6bc1a30f6decfca2
+    ref: 0b09ca49c308b34560d750b33674fce51e3e979b
     description: "Databricks Workflows parser plugin for IntentumDiff (full-parse mode)"
     wasm_checksums:
-      databricks_parser.wasm: 9488c880bc07d8e8d97bbb5f98295c87c74fdd84ffe6787e393e7b0eb2d4001d
+      databricks_parser.wasm: ea55a6394bde264fd032c70b688d14434cf02a78885b93702bb15344c91d0ce7
     trust_tier: official
     capabilities: [parser]
     abi_target: "1.0.0"
@@ -330,10 +330,10 @@ plugins:
     abi_target: "1.0.0"
   intentumdiff-mdx-parser:
     source: git
-    ref: 265917e88280a6d259f3ccffba7c79ec91b60a50
+    ref: dca8689687b674134526be727b8b3253fe115d68
     description: "MDX (Markdown + JSX) parser plugin for IntentumDiff (full-parse mode)"
     wasm_checksums:
-      mdx_parser.wasm: 71fb85b5317caa397f31d3da02b8e21d0ee5e55e5635156f60c8679fa0643673
+      mdx_parser.wasm: 1bb9e1aa2d5b58b973c4ea5f680e08581e6cd362079f17e2928d317bfdd0ec71
     trust_tier: official
     capabilities: [parser]
     abi_target: "1.0.0"
@@ -483,10 +483,10 @@ plugins:
     abi_target: "1.0.0"
   intentumdiff-sas-parser:
     source: git
-    ref: 170cec15e39d064f082c47515a7f5efa3a2817bf
+    ref: 9459a5fc8d498391c05ba7c8fc957abd66cda29a
     description: "SAS parser plugin for IntentumDiff (full-parse mode)"
     wasm_checksums:
-      sas_parser.wasm: 5d4e32e1973069b496cce8e7cead7c485b32422c06b2e4360abf2d27a569fd49
+      sas_parser.wasm: d0d665dcbfbb37795dd7b95debf19de814885a4a9890781f8aca314771d4770f
     trust_tier: official
     capabilities: [parser]
     abi_target: "1.0.0"
