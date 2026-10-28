@@ -406,7 +406,7 @@ PostScript parser plugin for IntentumDiff (full-parse mode)
 
 PowerShell parser plugin for IntentumDiff (full-parse mode)
 
-- **Source**: git `2d58f03f06b0c52e9038666d42191ee912a7ed09`
+- **Source**: git `9b8bd6d868e993f7dbc1ad268751f23713fa9aa6`
 - **ABI target**: `1.0.0`
 - **Capabilities**: `parser`
 - **Install**: `intentumdiff plugins add intentumdiff-powershell-parser`
