@@ -577,7 +577,7 @@ T-SQL (Microsoft SQL Server) parser plugin for IntentumDiff (full-parse mode)
 
 Visual Basic .NET parser plugin for IntentumDiff (full-parse mode)
 
-- **Source**: git `b52c1bb4ef85c8c44d2c0804523119b3e1ba4297`
+- **Source**: git `8266dfc920fc3a42215b7fc55952ed413ddebef1`
 - **ABI target**: `1.0.0`
 - **Capabilities**: `parser`
 - **Install**: `intentumdiff plugins add intentumdiff-vbnet-parser`
