@@ -402,10 +402,10 @@ plugins:
     abi_target: "1.0.0"
   intentumdiff-powershell-parser:
     source: git
-    ref: 2d58f03f06b0c52e9038666d42191ee912a7ed09
+    ref: 9b8bd6d868e993f7dbc1ad268751f23713fa9aa6
     description: "PowerShell parser plugin for IntentumDiff (full-parse mode)"
     wasm_checksums:
-      powershell_parser.wasm: db4db1515d13b3f452057d0a6c3c659ae9b3b484ef3cb572c7a19d670981c30a
+      powershell_parser.wasm: 29a7be79db83f80627e98da8513a160dc047ea972fae4e3be07d741793a30c15
     trust_tier: official
     capabilities: [parser]
     abi_target: "1.0.0"
