@@ -271,7 +271,7 @@ Java parser plugin for IntentumDiff (full-parse mode)
 
 JavaScript / TypeScript parser plugin for IntentumDiff (full-parse mode)
 
-- **Source**: git `c7ae6476889dd0db4a88907735ed06c7f155d07b`
+- **Source**: git `c007224439a623d72209e9a83b9bb519227ef569`
 - **ABI target**: `1.0.0`
 - **Capabilities**: `parser`
 - **Install**: `intentumdiff plugins add intentumdiff-js-ts-parser`
@@ -532,7 +532,7 @@ Squirrel parser plugin for IntentumDiff (interpret-cst mode)
 
 Svelte component parser plugin for IntentumDiff (full-parse mode)
 
-- **Source**: git `8b8ccbbac4b7daf70c8b513bbf8b29aa62a4ae72`
+- **Source**: git `63b021c0b721a52d6fc7eac54416fea38ac78774`
 - **ABI target**: `1.0.0`
 - **Capabilities**: `parser`
 - **Install**: `intentumdiff plugins add intentumdiff-svelte-parser`
