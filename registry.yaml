@@ -573,10 +573,10 @@ plugins:
     abi_target: "1.0.0"
   intentumdiff-vbnet-parser:
     source: git
-    ref: b52c1bb4ef85c8c44d2c0804523119b3e1ba4297
+    ref: 8266dfc920fc3a42215b7fc55952ed413ddebef1
     description: "Visual Basic .NET parser plugin for IntentumDiff (full-parse mode)"
     wasm_checksums:
-      vbnet_parser.wasm: 4e7a877439a50ecfd7d1d84c8bc161a7c203d1654413e0f95c86fd94674778d4
+      vbnet_parser.wasm: 35de0e7db4775794cce83ff7c79d78720247bf2c9bb769e256ea1b8605a14b8f
     trust_tier: official
     capabilities: [parser]
     abi_target: "1.0.0"
