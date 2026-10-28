@@ -625,3 +625,16 @@ plugins:
     trust_tier: official
     capabilities: [parser]
     abi_target: "1.0.0"
+
+## Release candidate renderer bundle, independently hashed from exact Core CI #40715548099.
+## Artifact: renderer-components (zip sha256 50e4ca62433853716d932778cb2dfc8f7d54d07c487ee772b9b65e786e9bfa64).
+## These are non-parser Wasm components, so do not publish them as fake plugin entries.
+renderer_components:
+  repository: intentumdiff-core
+  ref: 7aa72761d4034cdff4ec6ee59dee8f28392cb767
+  artifact: renderer-components
+  wasm_checksums:
+    html_renderer.wasm: 40794e2365f4f960cfd125089907b09cdb46b1d72cf79ec030516c46282e228c
+    llm_renderer.wasm: 691a45a62055fc8a13cfa21f58d024f577ed119c06dabf54e8aa137b40e3d99a
+    patch_renderer.wasm: 0d59e4316aa7b8aae70b2cf94a46567eb54c8ed28484d58f457a083ed6b388ca
+    terminal_renderer.wasm: 818e5c99e5f90c1761424b13ecd7f90e8421f495d4d7979d9391e427bdc37cd8

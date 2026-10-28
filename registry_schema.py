@@ -73,7 +73,7 @@ _ENTRY_FIELDS = frozenset(
         "provenance_manifest_ref",
     }
 )
-_TOP_LEVEL_FIELDS = frozenset({"version", "plugins"})
+_TOP_LEVEL_FIELDS = frozenset({"version", "plugins", "renderer_components"})
 
 
 def load_schema() -> dict[str, Any]:
@@ -133,6 +133,50 @@ def _validate_entry(name: str, entry: Any, errors: list[str]) -> None:
                 errors.append(f"{where}.{list_field}: must be a list of strings")
 
 
+# Internal renderers are shipped as a core-owned bundle, not as installable
+# parser plugins. All four must be independently pinned to exact component
+# bytes and an immutable core commit before a release wheel can stage them.
+_RENDERER_FILES = frozenset({
+    "html_renderer.wasm", "llm_renderer.wasm",
+    "patch_renderer.wasm", "terminal_renderer.wasm",
+})
+_RENDERER_BUNDLE_FIELDS = frozenset({"repository", "ref", "artifact", "wasm_checksums"})
+_GIT_SHA_RE = re.compile(r"^[a-f0-9]{40}$")
+
+
+def _validate_renderer_components(bundle: Any, errors: list[str]) -> None:
+    where = "renderer_components"
+    if not isinstance(bundle, dict):
+        errors.append(f"{where}: must be a mapping")
+        return
+    missing = _RENDERER_BUNDLE_FIELDS - set(bundle)
+    unknown = set(bundle) - _RENDERER_BUNDLE_FIELDS
+    if missing:
+        errors.append(f"{where}: missing field(s): {', '.join(sorted(missing))}")
+    if unknown:
+        errors.append(f"{where}: unknown field(s): {', '.join(sorted(unknown))}")
+    if bundle.get("repository") != "intentumdiff-core":
+        errors.append(f"{where}.repository: must be intentumdiff-core")
+    if bundle.get("artifact") != "renderer-components":
+        errors.append(f"{where}.artifact: must be renderer-components")
+    ref = bundle.get("ref")
+    if not isinstance(ref, str) or not _GIT_SHA_RE.fullmatch(ref):
+        errors.append(f"{where}.ref: must be an immutable 40-character git SHA")
+    pins = bundle.get("wasm_checksums")
+    if not isinstance(pins, dict):
+        errors.append(f"{where}.wasm_checksums: must be a mapping")
+    else:
+        if set(pins) != _RENDERER_FILES:
+            errors.append(
+                f"{where}.wasm_checksums: must pin exactly four known renderers; "
+                f"missing={sorted(_RENDERER_FILES - set(pins))} "
+                f"unexpected={sorted(set(pins) - _RENDERER_FILES)}"
+            )
+        for name, digest in pins.items():
+            if not isinstance(digest, str) or not _SHA256_RE.fullmatch(digest):
+                errors.append(f"{where}.wasm_checksums[{name!r}]: not a lowercase SHA-256 hex")
+
+
 def validate_registry(data: Any) -> list[str]:
     """Return every schema violation in *data* (empty list == a valid registry manifest)."""
     errors: list[str] = []
@@ -156,6 +200,9 @@ def validate_registry(data: Any) -> list[str]:
         if not _NAME_RE.match(str(name)):
             errors.append(f"plugins: {name!r} is not a package-safe plugin name")
         _validate_entry(str(name), entry, errors)
+
+    if "renderer_components" in data:
+        _validate_renderer_components(data["renderer_components"], errors)
 
     return errors
 
