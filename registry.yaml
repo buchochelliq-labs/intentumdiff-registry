@@ -267,10 +267,10 @@ plugins:
     abi_target: "1.0.0"
   intentumdiff-js-ts-parser:
     source: git
-    ref: c7ae6476889dd0db4a88907735ed06c7f155d07b
+    ref: c007224439a623d72209e9a83b9bb519227ef569
     description: "JavaScript / TypeScript parser plugin for IntentumDiff (full-parse mode)"
     wasm_checksums:
-      js_ts_parser.wasm: 7385d4b04f6495389314e6d567fc9457c43e0cb37225279ce36be6d688f4447b
+      js_ts_parser.wasm: 3990e217dbadb3624a2793f9a08c600b1e9c3b6d0accfbf7b5fe50712a7e8a42
     trust_tier: official
     capabilities: [parser]
     abi_target: "1.0.0"
@@ -528,10 +528,10 @@ plugins:
     abi_target: "1.0.0"
   intentumdiff-svelte-parser:
     source: git
-    ref: 8b8ccbbac4b7daf70c8b513bbf8b29aa62a4ae72
+    ref: 63b021c0b721a52d6fc7eac54416fea38ac78774
     description: "Svelte component parser plugin for IntentumDiff (full-parse mode)"
     wasm_checksums:
-      svelte_parser.wasm: abc346c5cb98d0b92e2e08508d32caff13a61ddd2c026e99cf32b8af6250cb22
+      svelte_parser.wasm: 667db72dcf8e48f77c7422bcedca8947901d640587a0927c3f8a4a55c797f848
     trust_tier: official
     capabilities: [parser]
     abi_target: "1.0.0"
