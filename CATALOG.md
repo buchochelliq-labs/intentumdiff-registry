@@ -136,7 +136,7 @@ Databricks Workflows parser plugin for IntentumDiff (full-parse mode)
 
 DAX / Power Query M parser plugin for IntentumDiff (full-parse mode)
 
-- **Source**: git `cf8e90aeb8717e5fd9f7ef195c420b63644bbf5b`
+- **Source**: git `fa82bc72b3d57f1f166988d78e0b816b543c4655`
 - **ABI target**: `1.0.0`
 - **Capabilities**: `parser`
 - **Install**: `intentumdiff plugins add intentumdiff-dax-parser`
@@ -145,7 +145,7 @@ DAX / Power Query M parser plugin for IntentumDiff (full-parse mode)
 
 Delphi/Object Pascal parser plugin for IntentumDiff (interpret-cst mode)
 
-- **Source**: git `74c7eb0863a85062f31a82c2714eb72a41002349`
+- **Source**: git `3a0a7041c24cb4f7fc914e85656180ef9d98802c`
 - **ABI target**: `1.0.0`
 - **Capabilities**: `parser`
 - **Install**: `intentumdiff plugins add intentumdiff-delphi-parser`
@@ -307,7 +307,7 @@ Lightweight LaTeX full-parse parser plugin for IntentumDiff
 
 Lua parser plugin for IntentumDiff (full-parse mode)
 
-- **Source**: git `21e399f46930d2ba6065c768ea4f64c079cb39a0`
+- **Source**: git `ebd515ce929c2ffc2e4b4d8c01be04036fff329c`
 - **ABI target**: `1.0.0`
 - **Capabilities**: `parser`
 - **Install**: `intentumdiff plugins add intentumdiff-lua-parser`
@@ -370,7 +370,7 @@ Perl parser plugin for IntentumDiff (full-parse mode)
 
 PHP parser plugin for IntentumDiff (full-parse mode)
 
-- **Source**: git `b8165d8ec56288a889600e8d6ba4bcb42a19fa70`
+- **Source**: git `a5dc1aae21067e42250d59dcc8624038c5b11121`
 - **ABI target**: `1.0.0`
 - **Capabilities**: `parser`
 - **Install**: `intentumdiff plugins add intentumdiff-php-parser`
@@ -442,7 +442,7 @@ Python parser plugin for IntentumDiff (full-parse mode)
 
 Q# (Microsoft Quantum) parser plugin for IntentumDiff (full-parse mode)
 
-- **Source**: git `e8c1ad200b244cd0d7a283e023d2d3a8e6a2b42b`
+- **Source**: git `7c00b6a63de0120420e9457e3fd0f451fd8779c7`
 - **ABI target**: `1.0.0`
 - **Capabilities**: `parser`
 - **Install**: `intentumdiff plugins add intentumdiff-qsharp-parser`
