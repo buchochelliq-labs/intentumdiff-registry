@@ -307,7 +307,7 @@ Lightweight LaTeX full-parse parser plugin for IntentumDiff
 
 Lua parser plugin for IntentumDiff (full-parse mode)
 
-- **Source**: git `ebd515ce929c2ffc2e4b4d8c01be04036fff329c`
+- **Source**: git `044a6cb76b92012956c0aa7c775e666b057296bf`
 - **ABI target**: `1.0.0`
 - **Capabilities**: `parser`
 - **Install**: `intentumdiff plugins add intentumdiff-lua-parser`
