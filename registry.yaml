@@ -303,10 +303,10 @@ plugins:
     abi_target: "1.0.0"
   intentumdiff-lua-parser:
     source: git
-    ref: ebd515ce929c2ffc2e4b4d8c01be04036fff329c
+    ref: 044a6cb76b92012956c0aa7c775e666b057296bf
     description: "Lua parser plugin for IntentumDiff (full-parse mode)"
     wasm_checksums:
-      lua_parser.wasm: 9113b44c86b6a6c73a8a29ccc0e061e05dedb3d23bf403bcf7b10318a56d34c5
+      lua_parser.wasm: d066fce870f86fc97d87fb5aaff00c08fefe6f35d4cb24dac0a48b2fadea3516
     trust_tier: official
     capabilities: [parser]
     abi_target: "1.0.0"
