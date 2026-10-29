@@ -44,9 +44,9 @@ Assembly parser plugin for IntentumDiff (interpret-cst mode)
 
 ### intentumdiff-assemblyscript-parser
 
-AssemblyScript parser plugin for IntentumDiff (interpret-cst mode)
+AssemblyScript parser plugin for IntentumDiff (full-parse mode)
 
-- **Source**: git `9177b9314d48b7d0fc73b2dde3cc49d7f44e1c9c`
+- **Source**: git `7ffce519cf4a2a57f25ed0f9cfd0ac4ab5c69ddc`
 - **ABI target**: `1.0.0`
 - **Capabilities**: `parser`
 - **Install**: `intentumdiff plugins add intentumdiff-assemblyscript-parser`
