@@ -51,10 +51,10 @@ plugins:
     abi_target: "1.0.0"
   intentumdiff-astro-parser:
     source: git
-    ref: 80e93bc20c142e0c8203d27318508588b844bdd2
+    ref: 74c6514e5341dccc90413bbd1c1611ffda0c4c30
     description: "Astro component parser plugin for IntentumDiff (full-parse mode)"
     wasm_checksums:
-      astro_parser.wasm: 982c3633ab865f6c74d6ce705a0c338d251d092b9b2c1767e4304f8f69a7b774
+      astro_parser.wasm: b909bbaf0ca820a04e227c14151fe7d9047fd5530ec7396e82118f29b46dd675
     trust_tier: official
     capabilities: [parser]
     abi_target: "1.0.0"
