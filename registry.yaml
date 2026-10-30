@@ -411,10 +411,10 @@ plugins:
     abi_target: "1.0.0"
   intentumdiff-proto-parser:
     source: git
-    ref: fad514987375c0f1a737ea5a6b09571a6f2e480d
+    ref: 7576a59b3246ce55745854b014cf0fb9ebbc21bd
     description: "Protocol Buffers parser plugin for IntentumDiff (tree-sitter-proto grammar, full-parse mode)"
     wasm_checksums:
-      proto_parser.wasm: 64a48fe368d28d5f272ad453c2832930b811e1f60b4c7f9c4f73dcb7e19343c5
+      proto_parser.wasm: d692e7aad9a759b2d5567d7dc5eeb2c5f6bc2e54d8e61d908dfa576f04df586a
     trust_tier: official
     capabilities: [parser]
     abi_target: "1.0.0"
