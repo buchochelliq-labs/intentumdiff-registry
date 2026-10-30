@@ -132,10 +132,10 @@ plugins:
     abi_target: "1.0.0"
   intentumdiff-dax-parser:
     source: git
-    ref: f49e2a30bf8145f2f03ae58b369f87b6ebb05e65
+    ref: 6eeaa96ad4e50a6cdfb83fb58baaf5142ddd0ac4
     description: "DAX / Power Query M parser plugin for IntentumDiff (full-parse mode)"
     wasm_checksums:
-      dax_parser.wasm: 374995e751d9a00e045432a4c0527e86576f54ef87026bc8e70f1fc0721bd869
+      dax_parser.wasm: e5663faaad696e0cca500748dec8974f161982050f1d7af12d2553e0f4f74bc1
     trust_tier: official
     capabilities: [parser]
     abi_target: "1.0.0"
