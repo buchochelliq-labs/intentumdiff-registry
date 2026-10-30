@@ -136,7 +136,7 @@ Databricks Workflows parser plugin for IntentumDiff (full-parse mode)
 
 DAX / Power Query M parser plugin for IntentumDiff (full-parse mode)
 
-- **Source**: git `f49e2a30bf8145f2f03ae58b369f87b6ebb05e65`
+- **Source**: git `6eeaa96ad4e50a6cdfb83fb58baaf5142ddd0ac4`
 - **ABI target**: `1.0.0`
 - **Capabilities**: `parser`
 - **Install**: `intentumdiff plugins add intentumdiff-dax-parser`
