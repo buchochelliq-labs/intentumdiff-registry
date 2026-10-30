@@ -388,7 +388,7 @@ PL/SQL (Oracle) parser plugin for IntentumDiff (full-parse mode)
 
 Lightweight PO/gettext full-parse parser plugin for IntentumDiff
 
-- **Source**: git `e5a3f444c66b9eeb48ac00897d019db9496919d0`
+- **Source**: git `e1387c13dd42125104492fb9121740fcd60967d6`
 - **ABI target**: `1.0.0`
 - **Capabilities**: `parser`
 - **Install**: `intentumdiff plugins add intentumdiff-po-parser`
