@@ -339,10 +339,10 @@ plugins:
     abi_target: "1.0.0"
   intentumdiff-ocaml-parser:
     source: git
-    ref: e731b69b1de4a77ea37a846900f2d75618ae3f8b
+    ref: 9f098aa4bfdb71126ed2f315bb25856b6fd7fe46
     description: "Lightweight OCaml full-parse parser plugin for IntentumDiff"
     wasm_checksums:
-      ocaml_parser.wasm: a70f8f5912022db28f648c5655a5b4e2f7218a2d0283212442bdd4ed7eb99d08
+      ocaml_parser.wasm: 1c8a1f8cba010a5d25270a4f795c9a86cab6c1963f1ba7fbe0e59356e91dafd5
     trust_tier: official
     capabilities: [parser]
     abi_target: "1.0.0"
