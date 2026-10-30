@@ -397,7 +397,7 @@ Lightweight PO/gettext full-parse parser plugin for IntentumDiff
 
 PostScript parser plugin for IntentumDiff (full-parse mode)
 
-- **Source**: git `ecef9ffa01e9eb64a0a966607ca600da923c7f0d`
+- **Source**: git `c48a58ab0c497dbf47a36706c3e8eb49afdf2a52`
 - **ABI target**: `1.0.0`
 - **Capabilities**: `parser`
 - **Install**: `intentumdiff plugins add intentumdiff-postscript-parser`
