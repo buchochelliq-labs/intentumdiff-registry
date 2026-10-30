@@ -415,7 +415,7 @@ PowerShell parser plugin for IntentumDiff (full-parse mode)
 
 Protocol Buffers parser plugin for IntentumDiff (tree-sitter-proto grammar, full-parse mode)
 
-- **Source**: git `fad514987375c0f1a737ea5a6b09571a6f2e480d`
+- **Source**: git `7576a59b3246ce55745854b014cf0fb9ebbc21bd`
 - **ABI target**: `1.0.0`
 - **Capabilities**: `parser`
 - **Install**: `intentumdiff plugins add intentumdiff-proto-parser`
