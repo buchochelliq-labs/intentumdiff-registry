@@ -393,10 +393,10 @@ plugins:
     abi_target: "1.0.0"
   intentumdiff-postscript-parser:
     source: git
-    ref: ecef9ffa01e9eb64a0a966607ca600da923c7f0d
+    ref: c48a58ab0c497dbf47a36706c3e8eb49afdf2a52
     description: "PostScript parser plugin for IntentumDiff (full-parse mode)"
     wasm_checksums:
-      postscript_parser.wasm: 0661dcd1b1bc1363403d3fe3c6e2c97fd6e84345d520fefab5fbfc9e9cd6a2f4
+      postscript_parser.wasm: 2f9dfc5f869ae4ec8cd03818977b7ae7c4565a901e2943fd096536476d771a1b
     trust_tier: official
     capabilities: [parser]
     abi_target: "1.0.0"
