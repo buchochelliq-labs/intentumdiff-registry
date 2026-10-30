@@ -55,7 +55,7 @@ AssemblyScript parser plugin for IntentumDiff (full-parse mode)
 
 Astro component parser plugin for IntentumDiff (full-parse mode)
 
-- **Source**: git `74c6514e5341dccc90413bbd1c1611ffda0c4c30`
+- **Source**: git `5806dc4af31cc3a808b53e43ebb9e7f486c6f4a2`
 - **ABI target**: `1.0.0`
 - **Capabilities**: `parser`
 - **Install**: `intentumdiff plugins add intentumdiff-astro-parser`
