@@ -217,7 +217,7 @@ go.mod parser plugin for IntentumDiff (tree-sitter-gomod grammar, full-parse mod
 
 Lightweight GraphQL full-parse parser plugin for IntentumDiff
 
-- **Source**: git `601fbf6162bd1593389e9ffa82084eb8c6d2aa9a`
+- **Source**: git `c9a733fe06aa6f4c1c4aebef224b891e6211e01c`
 - **ABI target**: `1.0.0`
 - **Capabilities**: `parser`
 - **Install**: `intentumdiff plugins add intentumdiff-graphql-parser`
