@@ -384,10 +384,10 @@ plugins:
     abi_target: "1.0.0"
   intentumdiff-po-parser:
     source: git
-    ref: e5a3f444c66b9eeb48ac00897d019db9496919d0
+    ref: e1387c13dd42125104492fb9121740fcd60967d6
     description: "Lightweight PO/gettext full-parse parser plugin for IntentumDiff"
     wasm_checksums:
-      po_parser.wasm: e79aece96524c99fe60a809117d661786303b8c6123a3f41f6c46e341dcc3558
+      po_parser.wasm: 092800f8e61e4b6d62ca914be56c850478913c798dece3fea02ee49be9fc970c
     trust_tier: official
     capabilities: [parser]
     abi_target: "1.0.0"
