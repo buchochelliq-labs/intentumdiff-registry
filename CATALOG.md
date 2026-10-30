@@ -343,7 +343,7 @@ MDX (Markdown + JSX) parser plugin for IntentumDiff (full-parse mode)
 
 Lightweight OCaml full-parse parser plugin for IntentumDiff
 
-- **Source**: git `e731b69b1de4a77ea37a846900f2d75618ae3f8b`
+- **Source**: git `9f098aa4bfdb71126ed2f315bb25856b6fd7fe46`
 - **ABI target**: `1.0.0`
 - **Capabilities**: `parser`
 - **Install**: `intentumdiff plugins add intentumdiff-ocaml-parser`
