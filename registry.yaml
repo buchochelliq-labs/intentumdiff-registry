@@ -132,10 +132,10 @@ plugins:
     abi_target: "1.0.0"
   intentumdiff-dax-parser:
     source: git
-    ref: fa82bc72b3d57f1f166988d78e0b816b543c4655
+    ref: f49e2a30bf8145f2f03ae58b369f87b6ebb05e65
     description: "DAX / Power Query M parser plugin for IntentumDiff (full-parse mode)"
     wasm_checksums:
-      dax_parser.wasm: db7341678c2f7465d913538f3f42fb5aea55dbd01c1c7c1cf68e25c4bd5a0511
+      dax_parser.wasm: 374995e751d9a00e045432a4c0527e86576f54ef87026bc8e70f1fc0721bd869
     trust_tier: official
     capabilities: [parser]
     abi_target: "1.0.0"
@@ -366,10 +366,10 @@ plugins:
     abi_target: "1.0.0"
   intentumdiff-php-parser:
     source: git
-    ref: a5dc1aae21067e42250d59dcc8624038c5b11121
+    ref: dcfd9c7ecaff2549534019cc8a0379cea6a997cc
     description: "PHP parser plugin for IntentumDiff (full-parse mode)"
     wasm_checksums:
-      php_parser.wasm: 3808fd0d4c907d6e2b1746e01f301a235f3379058b31067b2db15577257008bf
+      php_parser.wasm: 9b7dc0bf853f95fe55850ac8b340b3657d44bca70946c2a2be836cdceac42b37
     trust_tier: official
     capabilities: [parser]
     abi_target: "1.0.0"
@@ -438,10 +438,10 @@ plugins:
     abi_target: "1.0.0"
   intentumdiff-qsharp-parser:
     source: git
-    ref: 7c00b6a63de0120420e9457e3fd0f451fd8779c7
+    ref: 87663e057f4c37b2ebc3e292211c219e18771891
     description: "Q# (Microsoft Quantum) parser plugin for IntentumDiff (full-parse mode)"
     wasm_checksums:
-      qsharp_parser.wasm: a60b812380930d378a3d891a7428749c2379c1ce4d5bb1101cb4ab7533308e17
+      qsharp_parser.wasm: 7ee18d2ea51b991a0d6ee866da54b9e514a4952c77b221f9c1aac7261bc4e06c
     trust_tier: official
     capabilities: [parser]
     abi_target: "1.0.0"
