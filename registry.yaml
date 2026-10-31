@@ -456,10 +456,10 @@ plugins:
     abi_target: "1.0.0"
   intentumdiff-reasonml-parser:
     source: git
-    ref: f21452eaa9fc01d8670d6406a837401770bac321
+    ref: 4e3a839a8fca0abeea88d577bd439d6c2ecd9651
     description: "Lightweight ReasonML full-parse parser plugin for IntentumDiff"
     wasm_checksums:
-      reasonml_parser.wasm: 83b1be72208149d938bb295cf59d282ec08bc3c561ff854416e478f38eec233b
+      reasonml_parser.wasm: f7a063db0d6941e633b23ee040e82c345dcd92c77de60ebea62d66ef42b0692f
     trust_tier: official
     capabilities: [parser]
     abi_target: "1.0.0"
