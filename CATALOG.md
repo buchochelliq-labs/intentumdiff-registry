@@ -487,7 +487,7 @@ Rust parser plugin for IntentumDiff (full-parse mode)
 
 SAS parser plugin for IntentumDiff (full-parse mode)
 
-- **Source**: git `9459a5fc8d498391c05ba7c8fc957abd66cda29a`
+- **Source**: git `284d3ea0aea472bf8f0186cb22fd381632cc6616`
 - **ABI target**: `1.0.0`
 - **Capabilities**: `parser`
 - **Install**: `intentumdiff plugins add intentumdiff-sas-parser`
