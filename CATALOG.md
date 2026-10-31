@@ -460,7 +460,7 @@ R parser plugin for IntentumDiff (interpret-cst mode)
 
 Lightweight ReasonML full-parse parser plugin for IntentumDiff
 
-- **Source**: git `f21452eaa9fc01d8670d6406a837401770bac321`
+- **Source**: git `4e3a839a8fca0abeea88d577bd439d6c2ecd9651`
 - **ABI target**: `1.0.0`
 - **Capabilities**: `parser`
 - **Install**: `intentumdiff plugins add intentumdiff-reasonml-parser`
