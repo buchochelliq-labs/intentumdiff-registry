@@ -582,10 +582,10 @@ plugins:
     abi_target: "1.0.0"
   intentumdiff-vue-parser:
     source: git
-    ref: 250be45e96957e10f1972d8282242b6065bd0e6c
+    ref: 75de71b8c566f4de8a7f201dde8b315a40fe822c
     description: "Vue SFC parser plugin for IntentumDiff (full-parse mode)"
     wasm_checksums:
-      vue_parser.wasm: bb42f07bc18d03865ce0a0fad7fd1c9881dd455d03cbab963621f7ed96c2ad98
+      vue_parser.wasm: 16a2dfc6ca30bf8a7741acb804496bf2d9a7b7f4c4918f3776ffe953b24a80dd
     trust_tier: official
     capabilities: [parser]
     abi_target: "1.0.0"
