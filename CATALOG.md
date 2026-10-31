@@ -44,9 +44,9 @@ Assembly parser plugin for IntentumDiff (interpret-cst mode)
 
 ### intentumdiff-assemblyscript-parser
 
-AssemblyScript parser plugin for IntentumDiff (interpret-cst mode)
+AssemblyScript parser plugin for IntentumDiff (full-parse mode)
 
-- **Source**: git `9177b9314d48b7d0fc73b2dde3cc49d7f44e1c9c`
+- **Source**: git `7ffce519cf4a2a57f25ed0f9cfd0ac4ab5c69ddc`
 - **ABI target**: `1.0.0`
 - **Capabilities**: `parser`
 - **Install**: `intentumdiff plugins add intentumdiff-assemblyscript-parser`
@@ -55,7 +55,7 @@ AssemblyScript parser plugin for IntentumDiff (interpret-cst mode)
 
 Astro component parser plugin for IntentumDiff (full-parse mode)
 
-- **Source**: git `80e93bc20c142e0c8203d27318508588b844bdd2`
+- **Source**: git `092a2ad15e9bec51192d259c1b5c241f96d6561d`
 - **ABI target**: `1.0.0`
 - **Capabilities**: `parser`
 - **Install**: `intentumdiff plugins add intentumdiff-astro-parser`
@@ -136,7 +136,7 @@ Databricks Workflows parser plugin for IntentumDiff (full-parse mode)
 
 DAX / Power Query M parser plugin for IntentumDiff (full-parse mode)
 
-- **Source**: git `cf8e90aeb8717e5fd9f7ef195c420b63644bbf5b`
+- **Source**: git `6eeaa96ad4e50a6cdfb83fb58baaf5142ddd0ac4`
 - **ABI target**: `1.0.0`
 - **Capabilities**: `parser`
 - **Install**: `intentumdiff plugins add intentumdiff-dax-parser`
@@ -145,7 +145,7 @@ DAX / Power Query M parser plugin for IntentumDiff (full-parse mode)
 
 Delphi/Object Pascal parser plugin for IntentumDiff (interpret-cst mode)
 
-- **Source**: git `74c7eb0863a85062f31a82c2714eb72a41002349`
+- **Source**: git `3a0a7041c24cb4f7fc914e85656180ef9d98802c`
 - **ABI target**: `1.0.0`
 - **Capabilities**: `parser`
 - **Install**: `intentumdiff plugins add intentumdiff-delphi-parser`
@@ -217,7 +217,7 @@ go.mod parser plugin for IntentumDiff (tree-sitter-gomod grammar, full-parse mod
 
 Lightweight GraphQL full-parse parser plugin for IntentumDiff
 
-- **Source**: git `601fbf6162bd1593389e9ffa82084eb8c6d2aa9a`
+- **Source**: git `c9a733fe06aa6f4c1c4aebef224b891e6211e01c`
 - **ABI target**: `1.0.0`
 - **Capabilities**: `parser`
 - **Install**: `intentumdiff plugins add intentumdiff-graphql-parser`
@@ -271,7 +271,7 @@ Java parser plugin for IntentumDiff (full-parse mode)
 
 JavaScript / TypeScript parser plugin for IntentumDiff (full-parse mode)
 
-- **Source**: git `c7ae6476889dd0db4a88907735ed06c7f155d07b`
+- **Source**: git `eacbac4135e918552388c0e7f51eff614d4ba62e`
 - **ABI target**: `1.0.0`
 - **Capabilities**: `parser`
 - **Install**: `intentumdiff plugins add intentumdiff-js-ts-parser`
@@ -307,7 +307,7 @@ Lightweight LaTeX full-parse parser plugin for IntentumDiff
 
 Lua parser plugin for IntentumDiff (full-parse mode)
 
-- **Source**: git `21e399f46930d2ba6065c768ea4f64c079cb39a0`
+- **Source**: git `20d72d7b94f0bf8e911a58bb3dde989443192c4e`
 - **ABI target**: `1.0.0`
 - **Capabilities**: `parser`
 - **Install**: `intentumdiff plugins add intentumdiff-lua-parser`
@@ -343,7 +343,7 @@ MDX (Markdown + JSX) parser plugin for IntentumDiff (full-parse mode)
 
 Lightweight OCaml full-parse parser plugin for IntentumDiff
 
-- **Source**: git `e731b69b1de4a77ea37a846900f2d75618ae3f8b`
+- **Source**: git `9f098aa4bfdb71126ed2f315bb25856b6fd7fe46`
 - **ABI target**: `1.0.0`
 - **Capabilities**: `parser`
 - **Install**: `intentumdiff plugins add intentumdiff-ocaml-parser`
@@ -370,7 +370,7 @@ Perl parser plugin for IntentumDiff (full-parse mode)
 
 PHP parser plugin for IntentumDiff (full-parse mode)
 
-- **Source**: git `b8165d8ec56288a889600e8d6ba4bcb42a19fa70`
+- **Source**: git `dcfd9c7ecaff2549534019cc8a0379cea6a997cc`
 - **ABI target**: `1.0.0`
 - **Capabilities**: `parser`
 - **Install**: `intentumdiff plugins add intentumdiff-php-parser`
@@ -388,7 +388,7 @@ PL/SQL (Oracle) parser plugin for IntentumDiff (full-parse mode)
 
 Lightweight PO/gettext full-parse parser plugin for IntentumDiff
 
-- **Source**: git `e5a3f444c66b9eeb48ac00897d019db9496919d0`
+- **Source**: git `e1387c13dd42125104492fb9121740fcd60967d6`
 - **ABI target**: `1.0.0`
 - **Capabilities**: `parser`
 - **Install**: `intentumdiff plugins add intentumdiff-po-parser`
@@ -397,7 +397,7 @@ Lightweight PO/gettext full-parse parser plugin for IntentumDiff
 
 PostScript parser plugin for IntentumDiff (full-parse mode)
 
-- **Source**: git `ecef9ffa01e9eb64a0a966607ca600da923c7f0d`
+- **Source**: git `c48a58ab0c497dbf47a36706c3e8eb49afdf2a52`
 - **ABI target**: `1.0.0`
 - **Capabilities**: `parser`
 - **Install**: `intentumdiff plugins add intentumdiff-postscript-parser`
@@ -406,7 +406,7 @@ PostScript parser plugin for IntentumDiff (full-parse mode)
 
 PowerShell parser plugin for IntentumDiff (full-parse mode)
 
-- **Source**: git `2d58f03f06b0c52e9038666d42191ee912a7ed09`
+- **Source**: git `9b8bd6d868e993f7dbc1ad268751f23713fa9aa6`
 - **ABI target**: `1.0.0`
 - **Capabilities**: `parser`
 - **Install**: `intentumdiff plugins add intentumdiff-powershell-parser`
@@ -415,7 +415,7 @@ PowerShell parser plugin for IntentumDiff (full-parse mode)
 
 Protocol Buffers parser plugin for IntentumDiff (tree-sitter-proto grammar, full-parse mode)
 
-- **Source**: git `fad514987375c0f1a737ea5a6b09571a6f2e480d`
+- **Source**: git `7576a59b3246ce55745854b014cf0fb9ebbc21bd`
 - **ABI target**: `1.0.0`
 - **Capabilities**: `parser`
 - **Install**: `intentumdiff plugins add intentumdiff-proto-parser`
@@ -442,7 +442,7 @@ Python parser plugin for IntentumDiff (full-parse mode)
 
 Q# (Microsoft Quantum) parser plugin for IntentumDiff (full-parse mode)
 
-- **Source**: git `e8c1ad200b244cd0d7a283e023d2d3a8e6a2b42b`
+- **Source**: git `87663e057f4c37b2ebc3e292211c219e18771891`
 - **ABI target**: `1.0.0`
 - **Capabilities**: `parser`
 - **Install**: `intentumdiff plugins add intentumdiff-qsharp-parser`
@@ -460,7 +460,7 @@ R parser plugin for IntentumDiff (interpret-cst mode)
 
 Lightweight ReasonML full-parse parser plugin for IntentumDiff
 
-- **Source**: git `f21452eaa9fc01d8670d6406a837401770bac321`
+- **Source**: git `4e3a839a8fca0abeea88d577bd439d6c2ecd9651`
 - **ABI target**: `1.0.0`
 - **Capabilities**: `parser`
 - **Install**: `intentumdiff plugins add intentumdiff-reasonml-parser`
@@ -487,7 +487,7 @@ Rust parser plugin for IntentumDiff (full-parse mode)
 
 SAS parser plugin for IntentumDiff (full-parse mode)
 
-- **Source**: git `9459a5fc8d498391c05ba7c8fc957abd66cda29a`
+- **Source**: git `284d3ea0aea472bf8f0186cb22fd381632cc6616`
 - **ABI target**: `1.0.0`
 - **Capabilities**: `parser`
 - **Install**: `intentumdiff plugins add intentumdiff-sas-parser`
@@ -532,7 +532,7 @@ Squirrel parser plugin for IntentumDiff (interpret-cst mode)
 
 Svelte component parser plugin for IntentumDiff (full-parse mode)
 
-- **Source**: git `8b8ccbbac4b7daf70c8b513bbf8b29aa62a4ae72`
+- **Source**: git `bdc9a3fb48bb97e0f60229a2c55d8333d062059d`
 - **ABI target**: `1.0.0`
 - **Capabilities**: `parser`
 - **Install**: `intentumdiff plugins add intentumdiff-svelte-parser`
@@ -577,7 +577,7 @@ T-SQL (Microsoft SQL Server) parser plugin for IntentumDiff (full-parse mode)
 
 Visual Basic .NET parser plugin for IntentumDiff (full-parse mode)
 
-- **Source**: git `b52c1bb4ef85c8c44d2c0804523119b3e1ba4297`
+- **Source**: git `8266dfc920fc3a42215b7fc55952ed413ddebef1`
 - **ABI target**: `1.0.0`
 - **Capabilities**: `parser`
 - **Install**: `intentumdiff plugins add intentumdiff-vbnet-parser`
@@ -586,7 +586,7 @@ Visual Basic .NET parser plugin for IntentumDiff (full-parse mode)
 
 Vue SFC parser plugin for IntentumDiff (full-parse mode)
 
-- **Source**: git `5fbe3e71d2a3ed21226cb0cbebe9c2e8033a89f7`
+- **Source**: git `75de71b8c566f4de8a7f201dde8b315a40fe822c`
 - **ABI target**: `1.0.0`
 - **Capabilities**: `parser`
 - **Install**: `intentumdiff plugins add intentumdiff-vue-parser`

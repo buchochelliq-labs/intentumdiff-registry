@@ -42,19 +42,19 @@ plugins:
     abi_target: "1.0.0"
   intentumdiff-assemblyscript-parser:
     source: git
-    ref: 9177b9314d48b7d0fc73b2dde3cc49d7f44e1c9c
-    description: "AssemblyScript parser plugin for IntentumDiff (interpret-cst mode)"
+    ref: 7ffce519cf4a2a57f25ed0f9cfd0ac4ab5c69ddc
+    description: "AssemblyScript parser plugin for IntentumDiff (full-parse mode)"
     wasm_checksums:
-      assemblyscript_parser.wasm: 792740bfca94c1271f15e74d7b15b4c15e4647cadb7be091dc0b5b6368b39df8
+      assemblyscript_parser.wasm: 48ffe441dfa4ede797417428bcb1dc5ad17756b029f5ea9aebf5967970c0314d
     trust_tier: official
     capabilities: [parser]
     abi_target: "1.0.0"
   intentumdiff-astro-parser:
     source: git
-    ref: 80e93bc20c142e0c8203d27318508588b844bdd2
+    ref: 092a2ad15e9bec51192d259c1b5c241f96d6561d
     description: "Astro component parser plugin for IntentumDiff (full-parse mode)"
     wasm_checksums:
-      astro_parser.wasm: 982c3633ab865f6c74d6ce705a0c338d251d092b9b2c1767e4304f8f69a7b774
+      astro_parser.wasm: 87b9522ecb7b59163fe38e128edd5c1250c4a923035ff05928bfb179660fa533
     trust_tier: official
     capabilities: [parser]
     abi_target: "1.0.0"
@@ -132,19 +132,19 @@ plugins:
     abi_target: "1.0.0"
   intentumdiff-dax-parser:
     source: git
-    ref: cf8e90aeb8717e5fd9f7ef195c420b63644bbf5b
+    ref: 6eeaa96ad4e50a6cdfb83fb58baaf5142ddd0ac4
     description: "DAX / Power Query M parser plugin for IntentumDiff (full-parse mode)"
     wasm_checksums:
-      dax_parser.wasm: 72eeef0364ea3afcfe6e7d95f5566ed0ca1e9ab53b0e5b424bfd96661f2f83f0
+      dax_parser.wasm: e5663faaad696e0cca500748dec8974f161982050f1d7af12d2553e0f4f74bc1
     trust_tier: official
     capabilities: [parser]
     abi_target: "1.0.0"
   intentumdiff-delphi-parser:
     source: git
-    ref: 74c7eb0863a85062f31a82c2714eb72a41002349
+    ref: 3a0a7041c24cb4f7fc914e85656180ef9d98802c
     description: "Delphi/Object Pascal parser plugin for IntentumDiff (interpret-cst mode)"
     wasm_checksums:
-      delphi_parser.wasm: 61e2a69897971cd9e9f6857828f766e6892eb9ad4d2bc7fed4180444a730641c
+      delphi_parser.wasm: 091734b404007f999b82bbb438477d2c798b5035f8da3e1812f1a66e07a5d424
     trust_tier: official
     capabilities: [parser]
     abi_target: "1.0.0"
@@ -213,10 +213,10 @@ plugins:
     abi_target: "1.0.0"
   intentumdiff-graphql-parser:
     source: git
-    ref: 601fbf6162bd1593389e9ffa82084eb8c6d2aa9a
+    ref: c9a733fe06aa6f4c1c4aebef224b891e6211e01c
     description: "Lightweight GraphQL full-parse parser plugin for IntentumDiff"
     wasm_checksums:
-      graphql_parser.wasm: 95c4a6fc85d73f643784cdd2f15de31e604d98dbcf9338f5d89d7bdbf07c6752
+      graphql_parser.wasm: 45d1fcb658127d94d95017035eabfcec324651716d17c08dc1624520b56eb411
     trust_tier: official
     capabilities: [parser]
     abi_target: "1.0.0"
@@ -267,10 +267,10 @@ plugins:
     abi_target: "1.0.0"
   intentumdiff-js-ts-parser:
     source: git
-    ref: c7ae6476889dd0db4a88907735ed06c7f155d07b
+    ref: eacbac4135e918552388c0e7f51eff614d4ba62e
     description: "JavaScript / TypeScript parser plugin for IntentumDiff (full-parse mode)"
     wasm_checksums:
-      js_ts_parser.wasm: 7385d4b04f6495389314e6d567fc9457c43e0cb37225279ce36be6d688f4447b
+      js_ts_parser.wasm: 3677a9f5770395a9c3be7d1610e87c1d3cae1820bd9783f6bb65a78899ca5e46
     trust_tier: official
     capabilities: [parser]
     abi_target: "1.0.0"
@@ -303,10 +303,10 @@ plugins:
     abi_target: "1.0.0"
   intentumdiff-lua-parser:
     source: git
-    ref: 21e399f46930d2ba6065c768ea4f64c079cb39a0
+    ref: 20d72d7b94f0bf8e911a58bb3dde989443192c4e
     description: "Lua parser plugin for IntentumDiff (full-parse mode)"
     wasm_checksums:
-      lua_parser.wasm: 54062055e7fe3e75531d1818f2178373c1ede23a67b479752dc4eaa33b6cd22f
+      lua_parser.wasm: e9fab17743ef283b49218dab633242aacb1028e04570f323e0a0fbd34ca2adcb
     trust_tier: official
     capabilities: [parser]
     abi_target: "1.0.0"
@@ -339,10 +339,10 @@ plugins:
     abi_target: "1.0.0"
   intentumdiff-ocaml-parser:
     source: git
-    ref: e731b69b1de4a77ea37a846900f2d75618ae3f8b
+    ref: 9f098aa4bfdb71126ed2f315bb25856b6fd7fe46
     description: "Lightweight OCaml full-parse parser plugin for IntentumDiff"
     wasm_checksums:
-      ocaml_parser.wasm: a70f8f5912022db28f648c5655a5b4e2f7218a2d0283212442bdd4ed7eb99d08
+      ocaml_parser.wasm: 1c8a1f8cba010a5d25270a4f795c9a86cab6c1963f1ba7fbe0e59356e91dafd5
     trust_tier: official
     capabilities: [parser]
     abi_target: "1.0.0"
@@ -366,10 +366,10 @@ plugins:
     abi_target: "1.0.0"
   intentumdiff-php-parser:
     source: git
-    ref: b8165d8ec56288a889600e8d6ba4bcb42a19fa70
+    ref: dcfd9c7ecaff2549534019cc8a0379cea6a997cc
     description: "PHP parser plugin for IntentumDiff (full-parse mode)"
     wasm_checksums:
-      php_parser.wasm: 9203faf377773f63f56ee866db90030a423205e27d635761eaf68d2d409524b2
+      php_parser.wasm: 9b7dc0bf853f95fe55850ac8b340b3657d44bca70946c2a2be836cdceac42b37
     trust_tier: official
     capabilities: [parser]
     abi_target: "1.0.0"
@@ -384,37 +384,37 @@ plugins:
     abi_target: "1.0.0"
   intentumdiff-po-parser:
     source: git
-    ref: e5a3f444c66b9eeb48ac00897d019db9496919d0
+    ref: e1387c13dd42125104492fb9121740fcd60967d6
     description: "Lightweight PO/gettext full-parse parser plugin for IntentumDiff"
     wasm_checksums:
-      po_parser.wasm: e79aece96524c99fe60a809117d661786303b8c6123a3f41f6c46e341dcc3558
+      po_parser.wasm: 092800f8e61e4b6d62ca914be56c850478913c798dece3fea02ee49be9fc970c
     trust_tier: official
     capabilities: [parser]
     abi_target: "1.0.0"
   intentumdiff-postscript-parser:
     source: git
-    ref: ecef9ffa01e9eb64a0a966607ca600da923c7f0d
+    ref: c48a58ab0c497dbf47a36706c3e8eb49afdf2a52
     description: "PostScript parser plugin for IntentumDiff (full-parse mode)"
     wasm_checksums:
-      postscript_parser.wasm: 0661dcd1b1bc1363403d3fe3c6e2c97fd6e84345d520fefab5fbfc9e9cd6a2f4
+      postscript_parser.wasm: 2f9dfc5f869ae4ec8cd03818977b7ae7c4565a901e2943fd096536476d771a1b
     trust_tier: official
     capabilities: [parser]
     abi_target: "1.0.0"
   intentumdiff-powershell-parser:
     source: git
-    ref: 2d58f03f06b0c52e9038666d42191ee912a7ed09
+    ref: 9b8bd6d868e993f7dbc1ad268751f23713fa9aa6
     description: "PowerShell parser plugin for IntentumDiff (full-parse mode)"
     wasm_checksums:
-      powershell_parser.wasm: db4db1515d13b3f452057d0a6c3c659ae9b3b484ef3cb572c7a19d670981c30a
+      powershell_parser.wasm: 29a7be79db83f80627e98da8513a160dc047ea972fae4e3be07d741793a30c15
     trust_tier: official
     capabilities: [parser]
     abi_target: "1.0.0"
   intentumdiff-proto-parser:
     source: git
-    ref: fad514987375c0f1a737ea5a6b09571a6f2e480d
+    ref: 7576a59b3246ce55745854b014cf0fb9ebbc21bd
     description: "Protocol Buffers parser plugin for IntentumDiff (tree-sitter-proto grammar, full-parse mode)"
     wasm_checksums:
-      proto_parser.wasm: 64a48fe368d28d5f272ad453c2832930b811e1f60b4c7f9c4f73dcb7e19343c5
+      proto_parser.wasm: d692e7aad9a759b2d5567d7dc5eeb2c5f6bc2e54d8e61d908dfa576f04df586a
     trust_tier: official
     capabilities: [parser]
     abi_target: "1.0.0"
@@ -438,10 +438,10 @@ plugins:
     abi_target: "1.0.0"
   intentumdiff-qsharp-parser:
     source: git
-    ref: e8c1ad200b244cd0d7a283e023d2d3a8e6a2b42b
+    ref: 87663e057f4c37b2ebc3e292211c219e18771891
     description: "Q# (Microsoft Quantum) parser plugin for IntentumDiff (full-parse mode)"
     wasm_checksums:
-      qsharp_parser.wasm: ef145b7d709bd100a25f226c26ede729092ccccd2ca099bbd3236caf15459dc4
+      qsharp_parser.wasm: 7ee18d2ea51b991a0d6ee866da54b9e514a4952c77b221f9c1aac7261bc4e06c
     trust_tier: official
     capabilities: [parser]
     abi_target: "1.0.0"
@@ -456,10 +456,10 @@ plugins:
     abi_target: "1.0.0"
   intentumdiff-reasonml-parser:
     source: git
-    ref: f21452eaa9fc01d8670d6406a837401770bac321
+    ref: 4e3a839a8fca0abeea88d577bd439d6c2ecd9651
     description: "Lightweight ReasonML full-parse parser plugin for IntentumDiff"
     wasm_checksums:
-      reasonml_parser.wasm: 83b1be72208149d938bb295cf59d282ec08bc3c561ff854416e478f38eec233b
+      reasonml_parser.wasm: f7a063db0d6941e633b23ee040e82c345dcd92c77de60ebea62d66ef42b0692f
     trust_tier: official
     capabilities: [parser]
     abi_target: "1.0.0"
@@ -483,10 +483,10 @@ plugins:
     abi_target: "1.0.0"
   intentumdiff-sas-parser:
     source: git
-    ref: 9459a5fc8d498391c05ba7c8fc957abd66cda29a
+    ref: 284d3ea0aea472bf8f0186cb22fd381632cc6616
     description: "SAS parser plugin for IntentumDiff (full-parse mode)"
     wasm_checksums:
-      sas_parser.wasm: d0d665dcbfbb37795dd7b95debf19de814885a4a9890781f8aca314771d4770f
+      sas_parser.wasm: 929e24996f146d022d7395dc4d633f2553b3cb05e59b673e38a2b88678ad1f15
     trust_tier: official
     capabilities: [parser]
     abi_target: "1.0.0"
@@ -528,10 +528,10 @@ plugins:
     abi_target: "1.0.0"
   intentumdiff-svelte-parser:
     source: git
-    ref: 8b8ccbbac4b7daf70c8b513bbf8b29aa62a4ae72
+    ref: bdc9a3fb48bb97e0f60229a2c55d8333d062059d
     description: "Svelte component parser plugin for IntentumDiff (full-parse mode)"
     wasm_checksums:
-      svelte_parser.wasm: abc346c5cb98d0b92e2e08508d32caff13a61ddd2c026e99cf32b8af6250cb22
+      svelte_parser.wasm: 4112804bcdc30b3aed3311c16d4bb56caa293ac879228cc1f119d54ccb412ad2
     trust_tier: official
     capabilities: [parser]
     abi_target: "1.0.0"
@@ -573,19 +573,19 @@ plugins:
     abi_target: "1.0.0"
   intentumdiff-vbnet-parser:
     source: git
-    ref: b52c1bb4ef85c8c44d2c0804523119b3e1ba4297
+    ref: 8266dfc920fc3a42215b7fc55952ed413ddebef1
     description: "Visual Basic .NET parser plugin for IntentumDiff (full-parse mode)"
     wasm_checksums:
-      vbnet_parser.wasm: 4e7a877439a50ecfd7d1d84c8bc161a7c203d1654413e0f95c86fd94674778d4
+      vbnet_parser.wasm: 35de0e7db4775794cce83ff7c79d78720247bf2c9bb769e256ea1b8605a14b8f
     trust_tier: official
     capabilities: [parser]
     abi_target: "1.0.0"
   intentumdiff-vue-parser:
     source: git
-    ref: 5fbe3e71d2a3ed21226cb0cbebe9c2e8033a89f7
+    ref: 75de71b8c566f4de8a7f201dde8b315a40fe822c
     description: "Vue SFC parser plugin for IntentumDiff (full-parse mode)"
     wasm_checksums:
-      vue_parser.wasm: 393359f593f48c3249624b10e2184590d8a2e284e91366b295e5abeeb23ce72b
+      vue_parser.wasm: 16a2dfc6ca30bf8a7741acb804496bf2d9a7b7f4c4918f3776ffe953b24a80dd
     trust_tier: official
     capabilities: [parser]
     abi_target: "1.0.0"
@@ -625,3 +625,16 @@ plugins:
     trust_tier: official
     capabilities: [parser]
     abi_target: "1.0.0"
+
+## Release candidate renderer bundle, independently hashed from exact Core CI #40715548099.
+## Artifact: renderer-components (zip sha256 50e4ca62433853716d932778cb2dfc8f7d54d07c487ee772b9b65e786e9bfa64).
+## These are non-parser Wasm components, so do not publish them as fake plugin entries.
+renderer_components:
+  repository: intentumdiff-core
+  ref: 7aa72761d4034cdff4ec6ee59dee8f28392cb767
+  artifact: renderer-components
+  wasm_checksums:
+    html_renderer.wasm: 40794e2365f4f960cfd125089907b09cdb46b1d72cf79ec030516c46282e228c
+    llm_renderer.wasm: 691a45a62055fc8a13cfa21f58d024f577ed119c06dabf54e8aa137b40e3d99a
+    patch_renderer.wasm: 0d59e4316aa7b8aae70b2cf94a46567eb54c8ed28484d58f457a083ed6b388ca
+    terminal_renderer.wasm: 818e5c99e5f90c1761424b13ecd7f90e8421f495d4d7979d9391e427bdc37cd8
