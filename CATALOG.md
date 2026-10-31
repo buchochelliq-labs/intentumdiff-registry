@@ -271,7 +271,7 @@ Java parser plugin for IntentumDiff (full-parse mode)
 
 JavaScript / TypeScript parser plugin for IntentumDiff (full-parse mode)
 
-- **Source**: git `c007224439a623d72209e9a83b9bb519227ef569`
+- **Source**: git `eacbac4135e918552388c0e7f51eff614d4ba62e`
 - **ABI target**: `1.0.0`
 - **Capabilities**: `parser`
 - **Install**: `intentumdiff plugins add intentumdiff-js-ts-parser`
