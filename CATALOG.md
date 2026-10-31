@@ -586,7 +586,7 @@ Visual Basic .NET parser plugin for IntentumDiff (full-parse mode)
 
 Vue SFC parser plugin for IntentumDiff (full-parse mode)
 
-- **Source**: git `250be45e96957e10f1972d8282242b6065bd0e6c`
+- **Source**: git `75de71b8c566f4de8a7f201dde8b315a40fe822c`
 - **ABI target**: `1.0.0`
 - **Capabilities**: `parser`
 - **Install**: `intentumdiff plugins add intentumdiff-vue-parser`
