@@ -213,10 +213,10 @@ plugins:
     abi_target: "1.0.0"
   intentumdiff-graphql-parser:
     source: git
-    ref: baa9de9239b2fb27b95650437e4ed93aebcbc118
+    ref: 4b3a76f7864132db0e13e53b894982ad14e95ce2
     description: "Lightweight GraphQL full-parse parser plugin for IntentumDiff"
     wasm_checksums:
-      graphql_parser.wasm: b4581935bf0ff7b0a7ac3863c045cfb233022e916c38e5633076e7be45d0b6d7
+      graphql_parser.wasm: b01f0a4b3f19ace3cd125f1a9e863cf097ee9c35c35b1f5539f2ed129c8fc4e2
     trust_tier: official
     capabilities: [parser]
     abi_target: "1.0.0"
