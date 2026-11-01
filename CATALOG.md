@@ -10,7 +10,7 @@ _69 plugins — generated from the registry manifest._
 
 ABAP (SAP) parser plugin for IntentumDiff (full-parse mode)
 
-- **Source**: git `dcf0a8841fa5a5fc79ca55ecd5c4353e74a9174e`
+- **Source**: git `832e64a5bd44f0051486fee381832a44f4c98a6a`
 - **ABI target**: `1.0.0`
 - **Capabilities**: `parser`
 - **Install**: `intentumdiff plugins add intentumdiff-abap-parser`

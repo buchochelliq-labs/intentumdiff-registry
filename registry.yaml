@@ -6,10 +6,10 @@ version: 1
 plugins:
   intentumdiff-abap-parser:
     source: git
-    ref: dcf0a8841fa5a5fc79ca55ecd5c4353e74a9174e
+    ref: 832e64a5bd44f0051486fee381832a44f4c98a6a
     description: "ABAP (SAP) parser plugin for IntentumDiff (full-parse mode)"
     wasm_checksums:
-      abap_parser.wasm: 905cc663a525743a759823cc6c733fc1f289266191fa8e90882b21c71e984522
+      abap_parser.wasm: a00561ca1dd7c774e7a586c9fdb7b56bcaf268c2e56c0d8d3d0eff82e80c0554
     trust_tier: official
     capabilities: [parser]
     abi_target: "1.0.0"
