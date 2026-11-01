@@ -483,10 +483,10 @@ plugins:
     abi_target: "1.0.0"
   intentumdiff-sas-parser:
     source: git
-    ref: 24772527113b9a1968377e89bcf8f2a8a790a8ae
+    ref: d39eb80f09efa3fd445638b14d289f0a98c434dc
     description: "SAS parser plugin for IntentumDiff (full-parse mode)"
     wasm_checksums:
-      sas_parser.wasm: dcd745c9e70c8aca06562287b99893eb65743cf012abd82f3b08c140d0080a39
+      sas_parser.wasm: 9e97d5e32ab2f98e008b76bd429aca8ff3cce501f18c8b04e7bc65ff0948fbb4
     trust_tier: official
     capabilities: [parser]
     abi_target: "1.0.0"
