@@ -39,3 +39,9 @@ Schema and validator are vendored from the IntentumDiff monorepo
 live with the Python binding until its extraction.
 
 License: MIT.
+
+Renderer Wasm for the 0.0.2 release candidate is tracked separately under
+`renderer_components` in `registry.yaml`, because these four internal core-built
+components are **not** installable parser plugins. The bundle pins the source
+Core commit, artifact name, and each independently measured component SHA-256;
+wheel provisioning must reject unpinned, mismatched, unexpected or missing bytes.
