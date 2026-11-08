@@ -267,19 +267,19 @@ plugins:
     abi_target: "1.0.0"
   intentumdiff-js-ts-parser:
     source: git
-    ref: eacbac4135e918552388c0e7f51eff614d4ba62e
+    ref: 56799e9cffc66816d7e323d5dfb80a3e356a3531
     description: "JavaScript / TypeScript parser plugin for IntentumDiff (full-parse mode)"
     wasm_checksums:
-      js_ts_parser.wasm: 3677a9f5770395a9c3be7d1610e87c1d3cae1820bd9783f6bb65a78899ca5e46
+      js_ts_parser.wasm: 55b6c5d089b438c895306d23d62ee469b08cbb84b74576586cd482555bcd6c34
     trust_tier: official
     capabilities: [parser]
     abi_target: "1.0.0"
   intentumdiff-json-parser:
     source: git
-    ref: 2bc6d7fbadcd1c3df6258e46ac42d1301d0cfbd1
+    ref: f92ef0a5dcaf62ac46c28304b28dfcf48829e4ce
     description: "JSON parser plugin for IntentumDiff (full-parse mode)"
     wasm_checksums:
-      json_parser.wasm: 8edbe1a6d532c63cca819710093dadc2f3ad25cf10b58a095ca652b778177e89
+      json_parser.wasm: ffb886cf098373b018ab0d21ecdc04c0928619c20ca1b20961a40d738418d2fd
     trust_tier: official
     capabilities: [parser]
     abi_target: "1.0.0"
@@ -510,10 +510,10 @@ plugins:
     abi_target: "1.0.0"
   intentumdiff-sql-parser:
     source: git
-    ref: 16fd12eddd71f37ecea6557e6051c49a52ba22aa
+    ref: 6e059394a124f9c69a20b8a75918e16976f3160b
     description: "SQL parser plugin for IntentumDiff (full-parse mode)"
     wasm_checksums:
-      sql_parser.wasm: 4dc57fb84c187c530a09030114973112083cbfedc7d6a201c7ab545a98deb2da
+      sql_parser.wasm: 10255c582d04c55dac5bf61ab3e661fd0b0ab774002163b378baac2cda1b0a3c
     trust_tier: official
     capabilities: [parser]
     abi_target: "1.0.0"
@@ -609,10 +609,10 @@ plugins:
     abi_target: "1.0.0"
   intentumdiff-yaml-parser:
     source: git
-    ref: 74b1af3536cf9369e77fac12815d722b3d63de0e
+    ref: bc4aaa3c17625a47f4a7d171098975a8a6664727
     description: "YAML parser plugin for IntentumDiff (full-parse mode)"
     wasm_checksums:
-      yaml_parser.wasm: 6b0f380250cec04e7f78b92596783751882583c76dc85e117f70c2f9ddb0f4a0
+      yaml_parser.wasm: 2ff91eb6d68ae517e2941ed00c863a3ff3f2357ceedebecf9a062f8a216989d1
     trust_tier: official
     capabilities: [parser]
     abi_target: "1.0.0"

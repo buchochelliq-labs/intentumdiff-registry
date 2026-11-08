@@ -271,7 +271,7 @@ Java parser plugin for IntentumDiff (full-parse mode)
 
 JavaScript / TypeScript parser plugin for IntentumDiff (full-parse mode)
 
-- **Source**: git `eacbac4135e918552388c0e7f51eff614d4ba62e`
+- **Source**: git `56799e9cffc66816d7e323d5dfb80a3e356a3531`
 - **ABI target**: `1.0.0`
 - **Capabilities**: `parser`
 - **Install**: `intentumdiff plugins add intentumdiff-js-ts-parser`
@@ -280,7 +280,7 @@ JavaScript / TypeScript parser plugin for IntentumDiff (full-parse mode)
 
 JSON parser plugin for IntentumDiff (full-parse mode)
 
-- **Source**: git `2bc6d7fbadcd1c3df6258e46ac42d1301d0cfbd1`
+- **Source**: git `f92ef0a5dcaf62ac46c28304b28dfcf48829e4ce`
 - **ABI target**: `1.0.0`
 - **Capabilities**: `parser`
 - **Install**: `intentumdiff plugins add intentumdiff-json-parser`
@@ -514,7 +514,7 @@ SCSS parser plugin for IntentumDiff (full-parse mode)
 
 SQL parser plugin for IntentumDiff (full-parse mode)
 
-- **Source**: git `16fd12eddd71f37ecea6557e6051c49a52ba22aa`
+- **Source**: git `6e059394a124f9c69a20b8a75918e16976f3160b`
 - **ABI target**: `1.0.0`
 - **Capabilities**: `parser`
 - **Install**: `intentumdiff plugins add intentumdiff-sql-parser`
@@ -613,7 +613,7 @@ XML parser plugin for IntentumDiff (full-parse mode)
 
 YAML parser plugin for IntentumDiff (full-parse mode)
 
-- **Source**: git `74b1af3536cf9369e77fac12815d722b3d63de0e`
+- **Source**: git `bc4aaa3c17625a47f4a7d171098975a8a6664727`
 - **ABI target**: `1.0.0`
 - **Capabilities**: `parser`
 - **Install**: `intentumdiff plugins add intentumdiff-yaml-parser`
