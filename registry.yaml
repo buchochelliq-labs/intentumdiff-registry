@@ -90,7 +90,7 @@ plugins:
     ref: d29063acd1516658fcbe3f3bab7fdd77ec515db2
     description: "C/C++ parser plugin for IntentumDiff (full-parse mode)"
     wasm_checksums:
-      cpp_parser.wasm: fc9f2e2126e472cce0be1ad3d9fc4c33cf705e59ad6833c5074f3ebdb56744fa
+      cpp_parser.wasm: 447196da1ea6f2ee2f9adb10fe02d14d6da3a85d8eee06059a01aaaeb20eb483
     trust_tier: official
     capabilities: [parser]
     abi_target: "1.0.0"
