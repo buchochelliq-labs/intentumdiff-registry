@@ -87,10 +87,10 @@ plugins:
     abi_target: "1.0.0"
   intentumdiff-cpp-parser:
     source: git
-    ref: 64c822173e1f2285df6a56fc3f38630ff269bb82
+    ref: d29063acd1516658fcbe3f3bab7fdd77ec515db2
     description: "C/C++ parser plugin for IntentumDiff (full-parse mode)"
     wasm_checksums:
-      cpp_parser.wasm: 9af46c8b31ba636c00139b8b91bc10e3e118c156edee824aa8a2a60e671db6c2
+      cpp_parser.wasm: 447196da1ea6f2ee2f9adb10fe02d14d6da3a85d8eee06059a01aaaeb20eb483
     trust_tier: official
     capabilities: [parser]
     abi_target: "1.0.0"

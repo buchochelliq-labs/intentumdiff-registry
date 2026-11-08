@@ -91,7 +91,7 @@ CMake parser plugin for IntentumDiff (tree-sitter-cmake grammar, full-parse mode
 
 C/C++ parser plugin for IntentumDiff (full-parse mode)
 
-- **Source**: git `64c822173e1f2285df6a56fc3f38630ff269bb82`
+- **Source**: git `d29063acd1516658fcbe3f3bab7fdd77ec515db2`
 - **ABI target**: `1.0.0`
 - **Capabilities**: `parser`
 - **Install**: `intentumdiff plugins add intentumdiff-cpp-parser`
