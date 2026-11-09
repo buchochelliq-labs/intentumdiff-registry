@@ -19,7 +19,7 @@ ABAP (SAP) parser plugin for IntentumDiff (full-parse mode)
 
 Azure Data Factory pipeline parser plugin for IntentumDiff (full-parse mode)
 
-- **Source**: git `c74e01a8f8187e9afc2af33866791f9a99c8c0b7`
+- **Source**: git `cf3f269e13dd641df87770d83b5866f2be8864e8`
 - **ABI target**: `1.0.0`
 - **Capabilities**: `parser`
 - **Install**: `intentumdiff plugins add intentumdiff-adf-parser`
@@ -127,7 +127,7 @@ Dart parser plugin for IntentumDiff (interpret-cst mode)
 
 Databricks Workflows parser plugin for IntentumDiff (full-parse mode)
 
-- **Source**: git `0b09ca49c308b34560d750b33674fce51e3e979b`
+- **Source**: git `24f0c6d95e03e34f703700fe6d07f4024ff6d7b9`
 - **ABI target**: `1.0.0`
 - **Capabilities**: `parser`
 - **Install**: `intentumdiff plugins add intentumdiff-databricks-parser`
