@@ -15,10 +15,10 @@ plugins:
     abi_target: "1.0.0"
   intentumdiff-adf-parser:
     source: git
-    ref: c74e01a8f8187e9afc2af33866791f9a99c8c0b7
+    ref: cf3f269e13dd641df87770d83b5866f2be8864e8
     description: "Azure Data Factory pipeline parser plugin for IntentumDiff (full-parse mode)"
     wasm_checksums:
-      adf_parser.wasm: 941113f3bff97f3e9c670a4c77d33acbd83752a781c7b4caf0a48bc77364f7db
+      adf_parser.wasm: d1537ca40be16a9e191290ea0579b32180d360404e305f7265889dd59e00b375
     trust_tier: official
     capabilities: [parser]
     abi_target: "1.0.0"
@@ -123,10 +123,10 @@ plugins:
     abi_target: "1.0.0"
   intentumdiff-databricks-parser:
     source: git
-    ref: 0b09ca49c308b34560d750b33674fce51e3e979b
+    ref: 24f0c6d95e03e34f703700fe6d07f4024ff6d7b9
     description: "Databricks Workflows parser plugin for IntentumDiff (full-parse mode)"
     wasm_checksums:
-      databricks_parser.wasm: ea55a6394bde264fd032c70b688d14434cf02a78885b93702bb15344c91d0ce7
+      databricks_parser.wasm: b1ba6fb8495682eea337944ffeb11cacc48523453332118685e9ec69637f8ee0
     trust_tier: official
     capabilities: [parser]
     abi_target: "1.0.0"
