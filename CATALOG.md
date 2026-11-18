@@ -316,7 +316,7 @@ Lua parser plugin for IntentumDiff (full-parse mode)
 
 Makefile parser plugin for IntentumDiff (tree-sitter-make grammar, full-parse mode)
 
-- **Source**: git `eab73f063629b50d9255515db4c09ede76778c59`
+- **Source**: git `d0ecf643ac9d6ccb395ee8949a5f72e57e08c46c`
 - **ABI target**: `1.0.0`
 - **Capabilities**: `parser`
 - **Install**: `intentumdiff plugins add intentumdiff-make-parser`
