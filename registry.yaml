@@ -631,7 +631,7 @@ plugins:
 ## These are non-parser Wasm components, so do not publish them as fake plugin entries.
 renderer_components:
   repository: intentumdiff-core
-  ref: 7aa72761d4034cdff4ec6ee59dee8f28392cb767
+  ref: 97bb60cf98e4155c2a7e5fec6404432a89c4aede
   artifact: renderer-components
   wasm_checksums:
     html_renderer.wasm: 40794e2365f4f960cfd125089907b09cdb46b1d72cf79ec030516c46282e228c
