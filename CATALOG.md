@@ -82,7 +82,7 @@ Clojure parser plugin for IntentumDiff (interpret-cst mode)
 
 CMake parser plugin for IntentumDiff (tree-sitter-cmake grammar, full-parse mode)
 
-- **Source**: git `478a125ce0d2f1a9c798f3fe95dea952ef07d589`
+- **Source**: git `f67d8b614db79f7e3e992ec29f485cf69ced1fd8`
 - **ABI target**: `1.0.0`
 - **Capabilities**: `parser`
 - **Install**: `intentumdiff plugins add intentumdiff-cmake-parser`
@@ -280,7 +280,7 @@ JavaScript / TypeScript parser plugin for IntentumDiff (full-parse mode)
 
 JSON parser plugin for IntentumDiff (full-parse mode)
 
-- **Source**: git `f92ef0a5dcaf62ac46c28304b28dfcf48829e4ce`
+- **Source**: git `71f5e5bf4bd55cc802a20d37e9867ce41c8718f9`
 - **ABI target**: `1.0.0`
 - **Capabilities**: `parser`
 - **Install**: `intentumdiff plugins add intentumdiff-json-parser`

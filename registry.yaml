@@ -78,10 +78,10 @@ plugins:
     abi_target: "1.0.0"
   intentumdiff-cmake-parser:
     source: git
-    ref: 478a125ce0d2f1a9c798f3fe95dea952ef07d589
+    ref: f67d8b614db79f7e3e992ec29f485cf69ced1fd8
     description: "CMake parser plugin for IntentumDiff (tree-sitter-cmake grammar, full-parse mode)"
     wasm_checksums:
-      cmake_parser.wasm: f3074dd3e4a6b0bb55f7330b156ae7d703bc633e887e27b1a8a492a868b4aa59
+      cmake_parser.wasm: 0e356dcbb759c7a143a65024272ad1b0f514f505464b9877d674165375ef1de9
     trust_tier: official
     capabilities: [parser]
     abi_target: "1.0.0"
@@ -276,10 +276,10 @@ plugins:
     abi_target: "1.0.0"
   intentumdiff-json-parser:
     source: git
-    ref: f92ef0a5dcaf62ac46c28304b28dfcf48829e4ce
+    ref: 71f5e5bf4bd55cc802a20d37e9867ce41c8718f9
     description: "JSON parser plugin for IntentumDiff (full-parse mode)"
     wasm_checksums:
-      json_parser.wasm: ffb886cf098373b018ab0d21ecdc04c0928619c20ca1b20961a40d738418d2fd
+      json_parser.wasm: ff08cb0a86a2f96696ac5aa9cd6eb2fdd4ea281459493ee9323ac289a5582e18
     trust_tier: official
     capabilities: [parser]
     abi_target: "1.0.0"
